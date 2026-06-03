@@ -1,0 +1,58 @@
+{
+  "lg": {
+    "IE": {
+      "title": "LG Washing Machine IE Error",
+      "summary": "Machine cannot fill with water within expected configuration timelines.",
+      "severity": "Medium Fault Status",
+      "causes": [
+        "Closed or partially restricted municipal water taps",
+        "Debris or lime accumulation inside input mesh filters",
+        "Defective hot/cold water inlet solenoids or control valves"
+      ],
+      "checks": [
+        "Verify external physical manual feed valve channels are open completely",
+        "Extract, clean and replace interior water lines connection screens"
+      ],
+      "repairs": [
+        "Installation replacements for internal modular fluid inlet control assemblies"
+      ],
+      "repairTime": "30 - 90 Minutes",
+      "cost": {
+        "lagos": "15,000 - 35,000",
+        "abuja": "18,000 - 40,000",
+        "ibadan": "12,000 - 30,000",
+        "kano": "12,000 - 28,000",
+        "portharcourt": "18,000 - 42,000"
+      },
+      "faq": [
+        { "q": "Can I safely run subsequent operations with this indicator on?", "a": "No. The program limits continuous operation sequences when target volumes fail calculation markers." }
+      ],
+      "related": ["OE", "UE", "PE"]
+    }
+  },
+  "samsung": {
+    "4E": {
+      "title": "Samsung Washing Machine 4E Error",
+      "summary": "Water supply timeout encountered during standard operations.",
+      "severity": "Medium Fault Status",
+      "causes": ["Blocked inlet lines mesh filters", "Closed incoming tap source valve"],
+      "checks": ["Inspect incoming hose alignment", "Clean back filtration mesh pins"],
+      "repairs": ["Replace inlet secondary solenoid matrix unit"],
+      "repairTime": "30 - 65 Minutes",
+      "cost": {
+        "lagos": "12,000 - 28,000",
+        "abuja": "15,000 - 35,000",
+        "ibadan": "10,000 - 25,000",
+        "kano": "10,000 - 22,000",
+        "portharcourt": "14,000 - 30,000"
+      },
+      "faq": [
+        { "q": "Is the 4C indicator the same as 4E?", "a": "Yes, on modern Samsung digital cluster panels, 4C represents a matching intake configuration drop fault." }
+      ],
+      "related": ["4C", "5E"]
+    },
+    "4C": {
+      "aliasOf": "4E"
+    }
+  }
+}
