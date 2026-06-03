@@ -1,0 +1,155 @@
+{
+  "lg": {
+    "CH05": {
+      "title": "LG Air Conditioner CH05 Error",
+      "summary": "Communication error between the indoor and outdoor units.",
+      "severity": "High Fault Status",
+      "causes": [
+        "Loose or disconnected signal wiring connections between units",
+        "Electromagnetic interference or improper grounding of communication lines",
+        "Defective indoor or outdoor Main Printed Circuit Board (PCB) modules"
+      ],
+      "checks": [
+        "Inspect the structural integrity and continuity of the 3-core communication line",
+        "Verify appropriate supply voltage and grounding continuity across terminal blocks",
+        "Check diagnostic LED status indicators directly on the outdoor inverter PCB"
+      ],
+      "repairs": [
+        "Re-termination or full replacement of damaged communication interconnecting cabling",
+        "Replacement of the faulty outdoor or indoor Main control PCB motherboard assembly"
+      ],
+      "repairTime": "45 - 120 Minutes",
+      "cost": {
+        "lagos": "25,000 - 85,000",
+        "abuja": "30,000 - 95,000",
+        "ibadan": "22,000 - 75,000",
+        "kano": "20,000 - 70,000",
+        "portharcourt": "28,000 - 90,000"
+      },
+      "faq": [
+        {
+          "q": "Can I continue to run the fan when CH05 appears?",
+          "a": "No, the system automatically triggers a total safety shutdown loop to prevent potential electrical or compressor hardware damage."
+        }
+      ],
+      "related": [
+        "CH01",
+        "CH02",
+        "CH06"
+      ]
+    },
+    "CH01": {
+      "title": "LG Air Conditioner CH01 Error",
+      "summary": "Indoor unit room temperature thermistor open or short circuit fault.",
+      "severity": "Low Fault Status",
+      "causes": [
+        "Faulty or disconnected room ambient air temperature sensor assembly",
+        "Corroded pins or bad terminal solder connections on the indoor PCB sensor socket"
+      ],
+      "checks": [
+        "Measure the resistance profile of the thermistor using a digital multimeter against target specs (typically 10k\u2126 at 25\u00b0C)",
+        "Verify the sensor plug is securely plugged into the indoor board housing assembly"
+      ],
+      "repairs": [
+        "Replacement of the room air ambient temperature sensor thermistor assembly"
+      ],
+      "repairTime": "15 - 45 Minutes",
+      "cost": {
+        "lagos": "10,000 - 25,000",
+        "abuja": "12,000 - 30,000",
+        "ibadan": "8,000 - 22,000",
+        "kano": "8,000 - 20,000",
+        "portharcourt": "11,000 - 28,000"
+      },
+      "faq": [
+        {
+          "q": "Why is my AC running for only 2 minutes then throwing CH01?",
+          "a": "The control board samples real-time data; upon seeing out-of-spec open or short parameters, it terminates system cycles immediately."
+        }
+      ],
+      "related": [
+        "CH02",
+        "CH05"
+      ]
+    },
+    "C5": {
+      "aliasOf": "CH05"
+    }
+  },
+  "samsung": {
+    "E1": {
+      "title": "Samsung Air Conditioner E1 Error",
+      "summary": "Indoor unit room temperature sensor operation failure.",
+      "severity": "Low Fault Status",
+      "causes": [
+        "Defective internal room ambient temperature reading thermistor",
+        "Circuit break or physical disconnection on the indoor control motherboard sensor rail"
+      ],
+      "checks": [
+        "Evaluate the sensor physical positioning and continuous wiring circuit connection",
+        "Test resistance readings across the thermistor terminals at ambient temperatures"
+      ],
+      "repairs": [
+        "Replacement assembly installation for the dedicated room sensor unit"
+      ],
+      "repairTime": "20 - 50 Minutes",
+      "cost": {
+        "lagos": "9,000 - 24,000",
+        "abuja": "11,000 - 28,000",
+        "ibadan": "8,000 - 20,000",
+        "kano": "7,500 - 18,500",
+        "portharcourt": "10,000 - 26,000"
+      },
+      "faq": [
+        {
+          "q": "Are E1 and 21 error metrics identical?",
+          "a": "On selective modern multi-split Samsung iterations, a 21 or E1-21 screen flash signals a related room-side intake circuit fault."
+        }
+      ],
+      "related": [
+        "E2",
+        "E121"
+      ]
+    },
+    "E121": {
+      "aliasOf": "E1"
+    },
+    "E4": {
+      "title": "Samsung Air Conditioner E4 Error",
+      "summary": "Outdoor unit thermal discharge or compressor high temperature protection cycle activation.",
+      "severity": "High Fault Status",
+      "causes": [
+        "Refrigerant leak resulting in an under-charged system causing overheating",
+        "Severely blocked or dirty outdoor condenser coil fins hindering heat rejection",
+        "Defective outdoor condenser fan motor or failed run capacitor assembly"
+      ],
+      "checks": [
+        "Evaluate operating system pressures with a manifold gauge set to check charge level",
+        "Inspect the outdoor unit environment for air blockages and clean dust/debris accumulation from coils",
+        "Check fan motor winding resistance parameters and functional state of the motor capacitor"
+      ],
+      "repairs": [
+        "Leak detection, system evacuation, line repairs, and precision R410a/R32 refrigerant recharge",
+        "Replacement of the failed outdoor condenser fan motor or capacitor structural blocks"
+      ],
+      "repairTime": "60 - 180 Minutes",
+      "cost": {
+        "lagos": "30,000 - 120,000",
+        "abuja": "35,000 - 140,000",
+        "ibadan": "25,000 - 100,000",
+        "kano": "25,000 - 95,000",
+        "portharcourt": "35,000 - 130,000"
+      },
+      "faq": [
+        {
+          "q": "Will leaving the system off for an hour clear the E4 code?",
+          "a": "It may allow the compressor thermal switch to cool and reset, but the code will return if the root cause (leak or block) is not remediated."
+        }
+      ],
+      "related": [
+        "E5",
+        "E101"
+      ]
+    }
+  }
+}
