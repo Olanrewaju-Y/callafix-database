@@ -2,34 +2,57 @@
   "lg": {
     "IE": {
       "title": "LG Washing Machine IE Error",
-      "summary": "Water inlet timing error.",
-      "severity": "Medium Status",
-      "causes": ["Tap closed"],
-      "checks": ["Open tap"],
-      "repairs": ["Replace valve"],
-      "repairTime": "30 Mins",
-      "cost": { "lagos": "15,000", "abuja": "18,000", "ibadan": "12,000", "kano": "12,000", "portharcourt": "18,000" },
-      "faq": [{ "q": "Test?", "a": "Yes" }],
-      "related": ["OE"]
+      "summary": "Machine cannot fill with water within expected configuration timelines.",
+      "severity": "Medium Fault Status",
+      "causes": [
+        "Closed or partially restricted municipal water taps",
+        "Debris or lime accumulation inside input mesh filters",
+        "Defective hot/cold water inlet solenoids or control valves"
+      ],
+      "checks": [
+        "Verify external physical manual feed valve channels are open completely",
+        "Extract, clean and replace interior water lines connection screens"
+      ],
+      "repairs": [
+        "Installation replacements for internal modular fluid inlet control assemblies"
+      ],
+      "repairTime": "30 - 90 Minutes",
+      "cost": {
+        "lagos": "15,000 - 35,000",
+        "abuja": "18,000 - 40,000",
+        "ibadan": "12,000 - 30,000",
+        "kano": "12,000 - 28,000",
+        "portharcourt": "18,000 - 42,000"
+      },
+      "faq": [
+        {
+          "q": "Can I safely run subsequent operations with this indicator on?",
+          "a": "No. The program limits continuous operation sequences when target volumes fail calculation markers."
+        }
+      ],
+      "related": ["OE", "UE", "PE"]
     }
   },
   "symptoms": {
     "drain_issue": {
       "title": "Washing Machine Drainage Fault",
-      "summary": "The unit is failing to pump out water or complete the spin cycle.",
-      "severity": "Medium Priority Status",
-      "keywords": ["drain", "draining", "water stuck", "clogged pipe"],
+      "summary": "The appliance is retaining water and failing to complete the spin/drain cycle.",
+      "severity": "Medium Fault Status",
+      "keywords": ["drain", "draining", "water inside", "water stuck", "clogged pipe"],
       "causes": [
-        "Clogged drain pump filter",
-        "Blocked coin trap assembly"
+        "Clogged debris filter or coin trap",
+        "Kinked or twisted drain discharge hose",
+        "Faulty drain pump motor or broken impeller blades"
       ],
       "checks": [
-        "Unscrew the lower base filter plug and clear trapped coins or debris."
+        "Locate the small access door at the bottom front; manually drain and clear the debris filter.",
+        "Straighten the drain hose at the back of the machine."
       ],
       "repairs": [
-        "Full replacement of the electric drain pump motor."
+        "Drain pump motor electrical resistance checking and full assembly replacement.",
+        "Clearing blockages deep within the internal tub-to-pump hose lines."
       ],
-      "repairTime": "35 - 60 Minutes",
+      "repairTime": "30 - 60 Minutes",
       "cost": {
         "lagos": "12,000 - 25,000",
         "abuja": "15,000 - 30,000",
@@ -38,7 +61,10 @@
         "portharcourt": "14,000 - 28,000"
       },
       "faq": [
-        { "q": "Can I drain it manually?", "a": "Yes, using the emergency drain hose next to the filter cap." }
+        {
+          "q": "Can I leave the water inside overnight?",
+          "a": "It is not recommended, as stagnant water can cause bad odors and leak into electrical components."
+        }
       ],
       "related": ["OE Code", "Pump Fault"]
     }
