@@ -3,34 +3,44 @@
     "IE": {
       "title": "LG Washing Machine IE Error",
       "summary": "Water inlet timing error.",
-      "severity": "Medium Status"
+      "severity": "Medium Status",
+      "causes": ["Tap closed"],
+      "checks": ["Open tap"],
+      "repairs": ["Replace valve"],
+      "repairTime": "30 Mins",
+      "cost": { "lagos": "15,000", "abuja": "18,000", "ibadan": "12,000", "kano": "12,000", "portharcourt": "18,000" },
+      "faq": [{ "q": "Test?", "a": "Yes" }],
+      "related": ["OE"]
     }
   },
   "symptoms": {
-    "not_draining": {
+    "drain_issue": {
       "title": "Washing Machine Drainage Fault",
-      "summary": "The machine is retaining waste water and skipping internal high-speed spin extraction routines.",
+      "summary": "The unit is failing to pump out water or complete the spin cycle.",
       "severity": "Medium Priority Status",
-      "keywords": ["drain", "draining", "water stuck", "clogged pipe", "pump noise", "not draining"],
+      "keywords": ["drain", "draining", "water stuck", "clogged pipe"],
       "causes": [
-        "Clogged low drain filter / token interceptor coin trap",
-        "Kinked internal multi-flex execution discharge water hose line"
+        "Clogged drain pump filter",
+        "Blocked coin trap assembly"
       ],
       "checks": [
-        "Unscrew lower right base kickplate filter plug manually and drain stagnant volume traps cleanly"
+        "Unscrew the lower base filter plug and clear trapped coins or debris."
       ],
       "repairs": [
-        "Dynamic structural replacement of the automated electric extraction pump motor motor housing"
+        "Full replacement of the electric drain pump motor."
       ],
       "repairTime": "35 - 60 Minutes",
       "cost": {
         "lagos": "12,000 - 25,000",
-        "abuja": "15,000 - 30,000"
+        "abuja": "15,000 - 30,000",
+        "ibadan": "10,000 - 20,000",
+        "kano": "10,000 - 20,000",
+        "portharcourt": "14,000 - 28,000"
       },
       "faq": [
-        { "q": "Can I bypass this cycle safely?", "a": "No, forcing operations while backpressure volumes remain flooded damages motor control units." }
+        { "q": "Can I drain it manually?", "a": "Yes, using the emergency drain hose next to the filter cap." }
       ],
-      "related": ["OE Error", "Symptom: Spin Cycle Failed"]
+      "related": ["OE Code", "Pump Fault"]
     }
   }
 }
