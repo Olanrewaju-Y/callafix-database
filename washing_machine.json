@@ -1,35 +1,25 @@
 {
   "lg": {
-    "IE": {
-      "title": "LG Washing Machine IE Error",
-      "summary": "Water inlet timing failure observed on initialization.",
-      "severity": "Medium Status",
-      "causes": ["Faulty wall valve flow pressure", "Blocked tap assembly filter screens"],
-      "checks": ["Open supply taps fully", "Clean water screen filters"],
-      "repairs": ["Replace absolute system valve assemblies"],
-      "repairTime": "45 Minutes",
-      "cost": { "lagos": "15,000 - 35,000", "abuja": "18,000 - 40,000" },
-      "faq": [],
-      "related": ["OE"]
-    }
+    "IE": { "title": "LG Washing Machine IE Error" }
   },
   "symptoms": {
-    "drainage_fault": {
-      "title": "Washing Machine Drainage Issue",
-      "summary": "The unit fails to flush out wastewater before entering the high-speed spin cycle phase.",
-      "severity": "Medium System Status",
-      "keywords": ["drain", "draining", "water inside", "stuck"],
+    "not_draining": {
+      "title": "Washing Machine Drain Issue",
+      "summary": "The appliance is retaining water and failing to complete the spin/drain cycle.",
+      "severity": "Medium Fault Status",
+      "keywords": ["drain", "draining", "water inside", "water stuck", "not spinning"],
       "causes": [
-        "Clogged low-level coin trap filter screen",
-        "Kinked external discharge lines array",
-        "Burnt internal drainage pump motor core coil"
+        "Clogged debris filter or coin trap",
+        "Kinked or twisted drain discharge hose",
+        "Faulty drain pump motor or broken impeller blades"
       ],
       "checks": [
-        "Unscrew the low-level maintenance door and clear internal trap blockages manually.",
-        "Check back hose assembly points for compression creases."
+        "Locate the small access door at the bottom front; manually drain and clear the debris filter.",
+        "Straighten the drain hose at the back of the machine."
       ],
       "repairs": [
-        "Complete installation swap replacement of the primary drainage water exhaust pump assembly."
+        "Drain pump motor electrical resistance checking and full assembly replacement.",
+        "Clearing blockages deep within the internal tub-to-pump hose lines."
       ],
       "repairTime": "30 - 60 Minutes",
       "cost": {
@@ -40,9 +30,9 @@
         "portharcourt": "14,000 - 28,000"
       },
       "faq": [
-        { "q": "Is stagnant water inside the drum hazardous?", "a": "Yes, leaving water pooled for extended periods can damage door seals and leak onto underlying circuit pathways." }
+        { "q": "Can I leave the water inside overnight?", "a": "It is not recommended, as stagnant water can cause bad odors and leak into the underlying electrical components." }
       ],
-      "related": ["OE Error Code", "Spin cycle malfunction"]
+      "related": ["OE", "Symptom: Not Spinning"]
     }
   }
 }
