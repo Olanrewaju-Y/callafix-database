@@ -5,68 +5,454 @@
       "summary": "Machine cannot fill with water within expected configuration timelines.",
       "severity": "Medium Fault Status",
       "causes": [
-        "Closed or partially restricted municipal water taps",
-        "Debris or lime accumulation inside input mesh filters",
-        "Defective hot/cold water inlet solenoids or control valves"
+        "Closed water supply tap",
+        "Blocked inlet filter",
+        "Faulty water inlet valve"
       ],
       "checks": [
-        "Verify external physical manual feed valve channels are open completely",
-        "Extract, clean and replace interior water lines connection screens"
+        "Confirm water supply is turned on",
+        "Clean inlet filter screens"
       ],
       "repairs": [
-        "Installation replacements for internal modular fluid inlet control assemblies"
+        "Replace water inlet valve assembly"
       ],
       "repairTime": "30 - 90 Minutes",
       "cost": {
-        "lagos": "15,000 - 35,000",
-        "abuja": "18,000 - 40,000",
-        "ibadan": "12,000 - 30,000",
-        "kano": "12,000 - 28,000",
-        "portharcourt": "18,000 - 42,000"
+        "lagos": "15000 - 35000",
+        "abuja": "18000 - 40000",
+        "ibadan": "12000 - 30000",
+        "kano": "12000 - 28000",
+        "portharcourt": "18000 - 42000"
       },
-      "faq": [
-        {
-          "q": "Can I safely run subsequent operations with this indicator on?",
-          "a": "No. The program limits continuous operation sequences when target volumes fail calculation markers."
-        }
+      "related": ["OE", "PE", "FE"]
+    },
+
+    "OE": {
+      "title": "LG Washing Machine OE Error",
+      "summary": "Water is not draining from the tub.",
+      "severity": "Medium Fault Status",
+      "causes": [
+        "Blocked drain filter",
+        "Clogged drain hose",
+        "Faulty drain pump"
       ],
-      "related": ["OE", "UE", "PE"]
+      "checks": [
+        "Clean pump filter",
+        "Inspect drain hose for blockage"
+      ],
+      "repairs": [
+        "Drain pump replacement"
+      ],
+      "repairTime": "30 - 60 Minutes",
+      "related": ["IE", "PE", "FE"]
+    },
+
+    "UE": {
+      "title": "LG Washing Machine UE Error",
+      "summary": "Load is unevenly distributed.",
+      "severity": "Low Fault Status",
+      "causes": [
+        "Heavy items on one side",
+        "Machine not level"
+      ],
+      "checks": [
+        "Redistribute laundry",
+        "Level machine feet"
+      ],
+      "repairs": [
+        "Suspension system inspection"
+      ],
+      "repairTime": "10 - 30 Minutes",
+      "related": ["LE"]
+    },
+
+    "LE": {
+      "title": "LG Washing Machine LE Error",
+      "summary": "Motor locked or overloaded.",
+      "severity": "High Fault Status",
+      "causes": [
+        "Overloaded drum",
+        "Rotor position sensor fault",
+        "Motor failure"
+      ],
+      "checks": [
+        "Remove excess laundry",
+        "Inspect motor wiring"
+      ],
+      "repairs": [
+        "Hall sensor replacement",
+        "Motor replacement"
+      ],
+      "repairTime": "60 - 180 Minutes",
+      "related": ["CE", "UE"]
+    },
+
+    "DE": {
+      "title": "LG Washing Machine DE Error",
+      "summary": "Door lock system malfunction.",
+      "severity": "Medium Fault Status",
+      "causes": [
+        "Door not fully closed",
+        "Faulty lock assembly"
+      ],
+      "checks": [
+        "Close door firmly",
+        "Inspect door latch"
+      ],
+      "repairs": [
+        "Replace door lock assembly"
+      ],
+      "repairTime": "20 - 60 Minutes",
+      "related": ["CL"]
+    },
+
+    "PE": {
+      "title": "LG Washing Machine PE Error",
+      "summary": "Water level sensor failure.",
+      "severity": "High Fault Status",
+      "causes": [
+        "Pressure switch failure",
+        "Blocked pressure hose"
+      ],
+      "checks": [
+        "Inspect sensor hose",
+        "Test pressure switch"
+      ],
+      "repairs": [
+        "Pressure sensor replacement"
+      ],
+      "repairTime": "30 - 90 Minutes",
+      "related": ["FE", "IE"]
+    },
+
+    "FE": {
+      "title": "LG Washing Machine FE Error",
+      "summary": "Machine is overfilling with water.",
+      "severity": "High Fault Status",
+      "causes": [
+        "Water valve stuck open",
+        "Pressure switch fault"
+      ],
+      "checks": [
+        "Turn off water supply",
+        "Inspect valve operation"
+      ],
+      "repairs": [
+        "Replace inlet valve",
+        "Replace pressure sensor"
+      ],
+      "repairTime": "45 - 120 Minutes",
+      "related": ["PE", "IE"]
+    },
+
+    "TE": {
+      "title": "LG Washing Machine TE Error",
+      "summary": "Temperature sensing system failure.",
+      "severity": "Medium Fault Status",
+      "causes": [
+        "Defective thermistor",
+        "Loose sensor wiring"
+      ],
+      "checks": [
+        "Inspect sensor connector"
+      ],
+      "repairs": [
+        "Replace thermistor"
+      ],
+      "repairTime": "30 - 90 Minutes",
+      "related": ["HE"]
+    },
+
+    "CE": {
+      "title": "LG Washing Machine CE Error",
+      "summary": "Motor current overload detected.",
+      "severity": "High Fault Status",
+      "causes": [
+        "Motor overload",
+        "Short circuit"
+      ],
+      "checks": [
+        "Reduce load",
+        "Inspect motor wiring"
+      ],
+      "repairs": [
+        "Motor diagnostics",
+        "PCB repair"
+      ],
+      "repairTime": "60 - 180 Minutes",
+      "related": ["LE"]
+    },
+
+    "AE": {
+      "title": "LG Washing Machine AE Error",
+      "summary": "Leak protection activated.",
+      "severity": "High Fault Status",
+      "causes": [
+        "Water leak",
+        "Overflow condition"
+      ],
+      "checks": [
+        "Inspect machine base"
+      ],
+      "repairs": [
+        "Leak tracing and repair"
+      ],
+      "repairTime": "60 - 180 Minutes",
+      "related": ["FE"]
     }
   },
+
+  "samsung": {
+    "4C": {
+      "title": "Samsung 4C Water Supply Error",
+      "summary": "Machine cannot receive sufficient water.",
+      "severity": "Medium Fault Status",
+      "related": ["5C", "LC"]
+    },
+
+    "5C": {
+      "title": "Samsung 5C Drain Error",
+      "summary": "Machine cannot drain water.",
+      "severity": "Medium Fault Status",
+      "related": ["4C"]
+    },
+
+    "UB": {
+      "title": "Samsung UB Unbalanced Load Error",
+      "summary": "Load distribution issue detected.",
+      "severity": "Low Fault Status",
+      "related": ["DC"]
+    },
+
+    "DC": {
+      "title": "Samsung DC Door Error",
+      "summary": "Door not locked correctly.",
+      "severity": "Medium Fault Status",
+      "related": ["UB"]
+    },
+
+    "HE": {
+      "title": "Samsung Heating Error",
+      "summary": "Water heating system malfunction.",
+      "severity": "High Fault Status"
+    },
+
+    "LC": {
+      "title": "Samsung Leak Error",
+      "summary": "Leak sensor detected water.",
+      "severity": "High Fault Status"
+    },
+
+    "3E": {
+      "title": "Samsung Motor Error",
+      "summary": "Motor operation fault detected.",
+      "severity": "High Fault Status"
+    },
+
+    "SUD": {
+      "title": "Samsung Excess Foam Error",
+      "summary": "Too much detergent detected.",
+      "severity": "Low Fault Status"
+    },
+
+    "UC": {
+      "title": "Samsung Voltage Error",
+      "summary": "Incoming voltage unstable.",
+      "severity": "Medium Fault Status"
+    }
+  },
+
+  "whirlpool": {
+    "F1E1": {
+      "title": "Whirlpool Control Board Error",
+      "summary": "Main PCB malfunction.",
+      "severity": "High Fault Status"
+    },
+
+    "F5E1": {
+      "title": "Whirlpool Door Lock Error",
+      "summary": "Door lock system failure.",
+      "severity": "Medium Fault Status"
+    },
+
+    "F8E1": {
+      "title": "Whirlpool Long Fill Error",
+      "summary": "Water entering too slowly.",
+      "severity": "Medium Fault Status"
+    },
+
+    "F9E1": {
+      "title": "Whirlpool Long Drain Error",
+      "summary": "Drain cycle timeout.",
+      "severity": "Medium Fault Status"
+    },
+
+    "UL": {
+      "title": "Whirlpool Unbalanced Load",
+      "summary": "Load imbalance detected.",
+      "severity": "Low Fault Status"
+    },
+
+    "SUD": {
+      "title": "Whirlpool Excess Suds",
+      "summary": "Too much detergent used.",
+      "severity": "Low Fault Status"
+    }
+  },
+
+  "bosch": {
+    "E16": {
+      "title": "Bosch Door Error",
+      "summary": "Door not properly closed.",
+      "severity": "Medium Fault Status"
+    },
+
+    "E17": {
+      "title": "Bosch Water Fill Error",
+      "summary": "Insufficient water entering machine.",
+      "severity": "Medium Fault Status"
+    },
+
+    "E18": {
+      "title": "Bosch Drain Error",
+      "summary": "Machine cannot drain water.",
+      "severity": "Medium Fault Status"
+    },
+
+    "E19": {
+      "title": "Bosch Heating Error",
+      "summary": "Water heating failure.",
+      "severity": "High Fault Status"
+    },
+
+    "E21": {
+      "title": "Bosch Motor Error",
+      "summary": "Drive motor fault detected.",
+      "severity": "High Fault Status"
+    },
+
+    "E23": {
+      "title": "Bosch Leak Error",
+      "summary": "Leakage protection activated.",
+      "severity": "High Fault Status"
+    },
+
+    "E24": {
+      "title": "Bosch Pump Error",
+      "summary": "Drain pump malfunction.",
+      "severity": "High Fault Status"
+    }
+  },
+
+  "electrolux": {
+    "E10": {
+      "title": "Electrolux Water Supply Error",
+      "summary": "Water filling problem.",
+      "severity": "Medium Fault Status"
+    },
+
+    "E20": {
+      "title": "Electrolux Drain Error",
+      "summary": "Water drainage issue.",
+      "severity": "Medium Fault Status"
+    },
+
+    "E31": {
+      "title": "Electrolux Pressure Sensor Error",
+      "summary": "Water level detection fault.",
+      "severity": "High Fault Status"
+    },
+
+    "E40": {
+      "title": "Electrolux Door Lock Error",
+      "summary": "Door locking failure.",
+      "severity": "Medium Fault Status"
+    },
+
+    "E51": {
+      "title": "Electrolux Motor Control Error",
+      "summary": "Motor controller malfunction.",
+      "severity": "High Fault Status"
+    }
+  },
+
   "symptoms": {
     "drain_issue": {
       "title": "Washing Machine Drainage Fault",
-      "summary": "The appliance is retaining water and failing to complete the spin/drain cycle.",
+      "summary": "Machine retains water and cannot complete cycle.",
       "severity": "Medium Fault Status",
-      "keywords": ["drain", "draining", "water inside", "water stuck", "clogged pipe"],
-      "causes": [
-        "Clogged debris filter or coin trap",
-        "Kinked or twisted drain discharge hose",
-        "Faulty drain pump motor or broken impeller blades"
-      ],
-      "checks": [
-        "Locate the small access door at the bottom front; manually drain and clear the debris filter.",
-        "Straighten the drain hose at the back of the machine."
-      ],
-      "repairs": [
-        "Drain pump motor electrical resistance checking and full assembly replacement.",
-        "Clearing blockages deep within the internal tub-to-pump hose lines."
-      ],
-      "repairTime": "30 - 60 Minutes",
-      "cost": {
-        "lagos": "12,000 - 25,000",
-        "abuja": "15,000 - 30,000",
-        "ibadan": "10,000 - 20,000",
-        "kano": "10,000 - 20,000",
-        "portharcourt": "14,000 - 28,000"
-      },
-      "faq": [
-        {
-          "q": "Can I leave the water inside overnight?",
-          "a": "It is not recommended, as stagnant water can cause bad odors and leak into electrical components."
-        }
-      ],
-      "related": ["OE Code", "Pump Fault"]
+      "keywords": [
+        "drain",
+        "water stuck",
+        "not draining",
+        "pump"
+      ]
+    },
+
+    "not_spinning": {
+      "title": "Machine Not Spinning",
+      "summary": "Drum fails to enter spin cycle.",
+      "severity": "Medium Fault Status",
+      "keywords": [
+        "spin",
+        "not spinning",
+        "wet clothes"
+      ]
+    },
+
+    "water_leak": {
+      "title": "Water Leakage",
+      "summary": "Water escaping from appliance.",
+      "severity": "High Fault Status",
+      "keywords": [
+        "leak",
+        "water on floor",
+        "overflow"
+      ]
+    },
+
+    "door_wont_open": {
+      "title": "Door Stuck Closed",
+      "summary": "Door remains locked after cycle.",
+      "severity": "Medium Fault Status",
+      "keywords": [
+        "door stuck",
+        "locked door",
+        "cannot open"
+      ]
+    },
+
+    "not_filling": {
+      "title": "Machine Not Filling With Water",
+      "summary": "Tub remains empty after starting cycle.",
+      "severity": "Medium Fault Status",
+      "keywords": [
+        "not filling",
+        "no water",
+        "water supply"
+      ]
+    },
+
+    "excess_vibration": {
+      "title": "Excessive Vibration",
+      "summary": "Machine shakes excessively during operation.",
+      "severity": "Low Fault Status",
+      "keywords": [
+        "vibration",
+        "shaking",
+        "banging noise"
+      ]
+    },
+
+    "burning_smell": {
+      "title": "Burning Smell",
+      "summary": "Electrical or mechanical overheating detected.",
+      "severity": "Critical Fault Status",
+      "keywords": [
+        "burning smell",
+        "smoke",
+        "overheating"
+      ]
     }
   }
 }
