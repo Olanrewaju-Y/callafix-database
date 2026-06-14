@@ -5,454 +5,588 @@
       "summary": "Machine cannot fill with water within expected configuration timelines.",
       "severity": "Medium Fault Status",
       "causes": [
-        "Closed water supply tap",
-        "Blocked inlet filter",
-        "Faulty water inlet valve"
+        "Closed or partially restricted municipal water taps",
+        "Debris or lime accumulation inside input mesh filters",
+        "Defective hot/cold water inlet solenoids or control valves"
       ],
       "checks": [
-        "Confirm water supply is turned on",
-        "Clean inlet filter screens"
+        "Verify external physical manual feed valve channels are open completely",
+        "Extract, clean and replace interior water lines connection screens"
       ],
       "repairs": [
-        "Replace water inlet valve assembly"
+        "Installation replacements for internal modular fluid inlet control assemblies"
       ],
       "repairTime": "30 - 90 Minutes",
       "cost": {
-        "lagos": "15000 - 35000",
-        "abuja": "18000 - 40000",
-        "ibadan": "12000 - 30000",
-        "kano": "12000 - 28000",
-        "portharcourt": "18000 - 42000"
+        "lagos": "15,000 - 35,000",
+        "abuja": "18,000 - 40,000",
+        "ibadan": "12,000 - 30,000",
+        "kano": "12,000 - 28,000",
+        "portharcourt": "18,000 - 42,000"
       },
-      "related": ["OE", "PE", "FE"]
+      "faq": [
+        {
+          "q": "Can I safely run subsequent operations with this indicator on?",
+          "a": "No. The program limits continuous operation sequences when target volumes fail calculation markers."
+        }
+      ],
+      "related": ["OE", "UE", "PE"]
     },
-
     "OE": {
       "title": "LG Washing Machine OE Error",
-      "summary": "Water is not draining from the tub.",
+      "summary": "The appliance is unable to drain the water from the drum during the allocated cycle time.",
       "severity": "Medium Fault Status",
       "causes": [
-        "Blocked drain filter",
-        "Clogged drain hose",
-        "Faulty drain pump"
+        "Kinked, bent, or frozen drain hose",
+        "Clogged drain pump filter or debris trap",
+        "Defective drain pump assembly or wire harness failure"
       ],
       "checks": [
-        "Clean pump filter",
-        "Inspect drain hose for blockage"
+        "Inspect the drain hose at the rear for physical kinks or obstructions",
+        "Open bottom access panel, drain residual water, and clear the coin trap filter"
       ],
       "repairs": [
-        "Drain pump replacement"
+        "Replacement of the mechanical drain pump motor assembly"
       ],
       "repairTime": "30 - 60 Minutes",
-      "related": ["IE", "PE", "FE"]
+      "cost": {
+        "lagos": "12,000 - 25,000",
+        "abuja": "15,000 - 30,000",
+        "ibadan": "10,000 - 22,000",
+        "kano": "10,000 - 20,000",
+        "portharcourt": "14,000 - 28,000"
+      },
+      "faq": [
+        {
+          "q": "Why does my machine stop right before the spin cycle with OE?",
+          "a": "The control board verifies the water level has dropped before allowing high-speed spinning to protect the suspension system."
+        }
+      ],
+      "related": ["IE", "UE"]
     },
-
     "UE": {
-      "title": "LG Washing Machine UE Error",
-      "summary": "Load is unevenly distributed.",
+      "title": "LG Washing Machine UE/uE Error",
+      "summary": "The control board has detected an unbalanced load inside the drum, preventing a safe spin cycle.",
       "severity": "Low Fault Status",
       "causes": [
-        "Heavy items on one side",
-        "Machine not level"
+        "Unevenly distributed laundry load (e.g., a single heavy blanket or towel)",
+        "The washing machine unit is not physically leveled on the floor",
+        "Worn out or detached tub suspension springs or dampers"
       ],
       "checks": [
-        "Redistribute laundry",
-        "Level machine feet"
+        "Pause the unit, manually redistribute bunched-up items, and restart",
+        "Physically rock the machine to verify if all four leveling feet touch the floor firmly"
       ],
       "repairs": [
-        "Suspension system inspection"
+        "Adjusting/leveling feet or replacing worn internal suspension shock absorbers"
       ],
-      "repairTime": "10 - 30 Minutes",
+      "repairTime": "15 - 60 Minutes",
+      "cost": {
+        "lagos": "8,000 - 22,000",
+        "abuja": "10,000 - 25,000",
+        "ibadan": "7,000 - 18,000",
+        "kano": "6,000 - 15,000",
+        "portharcourt": "9,000 - 24,000"
+      },
+      "faq": [
+        {
+          "q": "What is the difference between lowercase 'uE' and uppercase 'UE'?",
+          "a": "A lowercase 'uE' means the machine is trying to rebalance the load itself; an uppercase 'UE' means it failed and stopped."
+        }
+      ],
       "related": ["LE"]
     },
-
     "LE": {
       "title": "LG Washing Machine LE Error",
-      "summary": "Motor locked or overloaded.",
+      "summary": "Motor lock error typically caused by an overloaded drum or a communication failure with the Direct Drive motor.",
       "severity": "High Fault Status",
       "causes": [
-        "Overloaded drum",
-        "Rotor position sensor fault",
-        "Motor failure"
+        "Heavy overload binding the drum movement",
+        "Failed or cracked rotor position sensor (RPS/Hall Sensor)",
+        "Main control board relay failure to the motor coils"
       ],
       "checks": [
-        "Remove excess laundry",
-        "Inspect motor wiring"
+        "Unplug the machine for 15 minutes to reset the smart control module",
+        "Reduce laundry mass inside the drum and attempt a manual rotation by hand"
       ],
       "repairs": [
-        "Hall sensor replacement",
-        "Motor replacement"
+        "Replacement of the Direct Drive Hall Sensor/RPS module behind the rotor assembly"
       ],
-      "repairTime": "60 - 180 Minutes",
-      "related": ["CE", "UE"]
-    },
-
-    "DE": {
-      "title": "LG Washing Machine DE Error",
-      "summary": "Door lock system malfunction.",
-      "severity": "Medium Fault Status",
-      "causes": [
-        "Door not fully closed",
-        "Faulty lock assembly"
+      "repairTime": "45 - 90 Minutes",
+      "cost": {
+        "lagos": "20,000 - 45,000",
+        "abuja": "25,000 - 50,000",
+        "ibadan": "18,000 - 38,000",
+        "kano": "15,000 - 35,000",
+        "portharcourt": "22,000 - 48,000"
+      },
+      "faq": [
+        {
+          "q": "Is a failed motor common on LG machines?",
+          "a": "No, the direct drive motor itself rarely fails; the electronic Hall sensor reading its position is typically the component requiring attention."
+        }
       ],
-      "checks": [
-        "Close door firmly",
-        "Inspect door latch"
-      ],
-      "repairs": [
-        "Replace door lock assembly"
-      ],
-      "repairTime": "20 - 60 Minutes",
-      "related": ["CL"]
-    },
-
-    "PE": {
-      "title": "LG Washing Machine PE Error",
-      "summary": "Water level sensor failure.",
-      "severity": "High Fault Status",
-      "causes": [
-        "Pressure switch failure",
-        "Blocked pressure hose"
-      ],
-      "checks": [
-        "Inspect sensor hose",
-        "Test pressure switch"
-      ],
-      "repairs": [
-        "Pressure sensor replacement"
-      ],
-      "repairTime": "30 - 90 Minutes",
-      "related": ["FE", "IE"]
-    },
-
-    "FE": {
-      "title": "LG Washing Machine FE Error",
-      "summary": "Machine is overfilling with water.",
-      "severity": "High Fault Status",
-      "causes": [
-        "Water valve stuck open",
-        "Pressure switch fault"
-      ],
-      "checks": [
-        "Turn off water supply",
-        "Inspect valve operation"
-      ],
-      "repairs": [
-        "Replace inlet valve",
-        "Replace pressure sensor"
-      ],
-      "repairTime": "45 - 120 Minutes",
-      "related": ["PE", "IE"]
-    },
-
-    "TE": {
-      "title": "LG Washing Machine TE Error",
-      "summary": "Temperature sensing system failure.",
-      "severity": "Medium Fault Status",
-      "causes": [
-        "Defective thermistor",
-        "Loose sensor wiring"
-      ],
-      "checks": [
-        "Inspect sensor connector"
-      ],
-      "repairs": [
-        "Replace thermistor"
-      ],
-      "repairTime": "30 - 90 Minutes",
-      "related": ["HE"]
-    },
-
-    "CE": {
-      "title": "LG Washing Machine CE Error",
-      "summary": "Motor current overload detected.",
-      "severity": "High Fault Status",
-      "causes": [
-        "Motor overload",
-        "Short circuit"
-      ],
-      "checks": [
-        "Reduce load",
-        "Inspect motor wiring"
-      ],
-      "repairs": [
-        "Motor diagnostics",
-        "PCB repair"
-      ],
-      "repairTime": "60 - 180 Minutes",
-      "related": ["LE"]
-    },
-
-    "AE": {
-      "title": "LG Washing Machine AE Error",
-      "summary": "Leak protection activated.",
-      "severity": "High Fault Status",
-      "causes": [
-        "Water leak",
-        "Overflow condition"
-      ],
-      "checks": [
-        "Inspect machine base"
-      ],
-      "repairs": [
-        "Leak tracing and repair"
-      ],
-      "repairTime": "60 - 180 Minutes",
-      "related": ["FE"]
+      "related": ["CE", "TE"]
     }
   },
-
   "samsung": {
     "4C": {
-      "title": "Samsung 4C Water Supply Error",
-      "summary": "Machine cannot receive sufficient water.",
+      "title": "Samsung Washing Machine 4C / 4E Error",
+      "summary": "Water supply failure detected; water is not entering the tub at the correct rate.",
       "severity": "Medium Fault Status",
-      "related": ["5C", "LC"]
+      "causes": [
+        "Kinked or blocked water inlet supply hoses",
+        "Clogged water hose mesh filters at the back connection port",
+        "Defective or seized internal water inlet valve solenoids"
+      ],
+      "checks": [
+        "Disconnect the water hose and clean the tiny mesh filter inside the machine's intake port",
+        "Ensure water supply valves from the household tank are turned on completely"
+      ],
+      "repairs": [
+        "Replacing the internal dual or triple water inlet valve assembly"
+      ],
+      "repairTime": "30 - 60 Minutes",
+      "cost": {
+        "lagos": "14,000 - 32,000",
+        "abuja": "16,000 - 38,000",
+        "ibadan": "12,000 - 28,000",
+        "kano": "11,000 - 25,000",
+        "portharcourt": "15,000 - 35,000"
+      },
+      "faq": [
+        {
+          "q": "Can low house water pressure trigger a 4C code?",
+          "a": "Yes. If water does not reach the minimum sensor level within several minutes, the machine safety aborts."
+        }
+      ],
+      "related": ["5C", "UB"]
     },
-
     "5C": {
-      "title": "Samsung 5C Drain Error",
-      "summary": "Machine cannot drain water.",
+      "title": "Samsung Washing Machine 5C / 5E Error",
+      "summary": "Drainage failure detected; the machine cannot evacuate water during a drain step.",
       "severity": "Medium Fault Status",
-      "related": ["4C"]
+      "causes": [
+        "Blocked debris filter located behind the lower-front access hatch",
+        "Obstructions inside the drain hose or domestic drain pipe setup",
+        "Burnt out electric drain pump motor"
+      ],
+      "checks": [
+        "Manually drain the machine using the small emergency tube, then unscrew the filter to clear hairpins or lint",
+        "Verify the drain hose isn't pushed too far down into the standing waste pipe"
+      ],
+      "repairs": [
+        "Replacing the failed electronic drain pump assembly"
+      ],
+      "repairTime": "30 - 60 Minutes",
+      "cost": {
+        "lagos": "13,000 - 27,000",
+        "abuja": "15,000 - 32,000",
+        "ibadan": "11,000 - 22,000",
+        "kano": "10,000 - 20,000",
+        "portharcourt": "14,000 - 30,000"
+      },
+      "faq": [
+        {
+          "q": "How often should I clean the 5C debris filter?",
+          "a": "It should be checked and cleared at least once every 2-3 months to prevent mid-cycle stops."
+        }
+      ],
+      "related": ["4C", "OC"]
     },
-
     "UB": {
-      "title": "Samsung UB Unbalanced Load Error",
-      "summary": "Load distribution issue detected.",
+      "title": "Samsung Washing Machine UB / UE Error",
+      "summary": "Unbalanced load error; the spin cycle is halted to prevent physical impact damage.",
       "severity": "Low Fault Status",
-      "related": ["DC"]
+      "causes": [
+        "Washing heavy isolated items like rugs, duvets, or pillows",
+        "The machine is sitting on an uneven tile or floor slope",
+        "Weakened structural dampening shocks"
+      ],
+      "checks": [
+        "Open door, split up heavy twisted items, and balance the mass evenly across the drum",
+        "Adjust and lock the base leveling feet firmly against the floor surface"
+      ],
+      "repairs": [
+        "Replacing a set of 4 internal suspension shock rod assemblies"
+      ],
+      "repairTime": "45 - 90 Minutes",
+      "cost": {
+        "lagos": "18,000 - 40,000",
+        "abuja": "20,000 - 45,000",
+        "ibadan": "15,000 - 35,000",
+        "kano": "14,000 - 30,000",
+        "portharcourt": "18,000 - 42,000"
+      },
+      "faq": [
+        {
+          "q": "Why does my washer display UB and add more time?",
+          "a": "The washer adds time because it automatically fills with water again to try to untangle the load itself before giving up."
+        }
+      ],
+      "related": ["3C"]
     },
-
-    "DC": {
-      "title": "Samsung DC Door Error",
-      "summary": "Door not locked correctly.",
-      "severity": "Medium Fault Status",
-      "related": ["UB"]
-    },
-
-    "HE": {
-      "title": "Samsung Heating Error",
-      "summary": "Water heating system malfunction.",
-      "severity": "High Fault Status"
-    },
-
-    "LC": {
-      "title": "Samsung Leak Error",
-      "summary": "Leak sensor detected water.",
-      "severity": "High Fault Status"
-    },
-
-    "3E": {
-      "title": "Samsung Motor Error",
-      "summary": "Motor operation fault detected.",
-      "severity": "High Fault Status"
-    },
-
-    "SUD": {
-      "title": "Samsung Excess Foam Error",
-      "summary": "Too much detergent detected.",
-      "severity": "Low Fault Status"
-    },
-
-    "UC": {
-      "title": "Samsung Voltage Error",
-      "summary": "Incoming voltage unstable.",
-      "severity": "Medium Fault Status"
+    "3C": {
+      "title": "Samsung Washing Machine 3C / 3E Error",
+      "summary": "Motor drive defect or rotational feedback error.",
+      "severity": "High Fault Status",
+      "causes": [
+        "Overloading the wash capacity limits",
+        "Damaged motor winding or worn out carbon brushes (on non-inverter models)",
+        "Main printed circuit board inverter circuit component failure"
+      ],
+      "checks": [
+        "Turn off power at the wall switch, wait 5 minutes, turn back on and select a drain-only cycle",
+        "Check manually if the drum can rotate freely without screeching friction"
+      ],
+      "repairs": [
+        "Inverter PCB repair/replacement or motor assembly swap out"
+      ],
+      "repairTime": "60 - 120 Minutes",
+      "cost": {
+        "lagos": "25,000 - 60,000",
+        "abuja": "30,000 - 65,000",
+        "ibadan": "20,000 - 50,000",
+        "kano": "18,000 - 45,000",
+        "portharcourt": "26,000 - 62,000"
+      },
+      "faq": [
+        {
+          "q": "Is the 3C code repairable without buying a new machine?",
+          "a": "Yes, it is highly repairable, usually requiring specific electronics soldering on the control module or a wire harness correction."
+        }
+      ],
+      "related": ["UC"]
     }
   },
-
-  "whirlpool": {
-    "F1E1": {
-      "title": "Whirlpool Control Board Error",
-      "summary": "Main PCB malfunction.",
-      "severity": "High Fault Status"
-    },
-
-    "F5E1": {
-      "title": "Whirlpool Door Lock Error",
-      "summary": "Door lock system failure.",
-      "severity": "Medium Fault Status"
-    },
-
-    "F8E1": {
-      "title": "Whirlpool Long Fill Error",
-      "summary": "Water entering too slowly.",
-      "severity": "Medium Fault Status"
-    },
-
-    "F9E1": {
-      "title": "Whirlpool Long Drain Error",
-      "summary": "Drain cycle timeout.",
-      "severity": "Medium Fault Status"
-    },
-
-    "UL": {
-      "title": "Whirlpool Unbalanced Load",
-      "summary": "Load imbalance detected.",
-      "severity": "Low Fault Status"
-    },
-
-    "SUD": {
-      "title": "Whirlpool Excess Suds",
-      "summary": "Too much detergent used.",
-      "severity": "Low Fault Status"
-    }
-  },
-
   "bosch": {
-    "E16": {
-      "title": "Bosch Door Error",
-      "summary": "Door not properly closed.",
-      "severity": "Medium Fault Status"
-    },
-
     "E17": {
-      "title": "Bosch Water Fill Error",
-      "summary": "Insufficient water entering machine.",
-      "severity": "Medium Fault Status"
+      "title": "Bosch Washing Machine E17 / F17 Error",
+      "summary": "Water intake time exceeded. Water intake is too slow or non-existent.",
+      "severity": "Medium Fault Status",
+      "causes": [
+        "AquaStop safety valve triggered or jammed shut",
+        "Extremely low pressure from domestic storage tanks",
+        "Kinked incoming feed plumbing"
+      ],
+      "checks": [
+        "Check that the supply tap is turned on all the way and supplying adequate water flow",
+        "Clean the small inline filter mesh seated inside the supply hose coupling"
+      ],
+      "repairs": [
+        "Replacing the specialized Bosch AquaStop input safety hose assembly"
+      ],
+      "repairTime": "30 - 60 Minutes",
+      "cost": {
+        "lagos": "22,000 - 45,000",
+        "abuja": "25,000 - 50,000",
+        "ibadan": "18,000 - 38,000",
+        "kano": "18,000 - 35,000",
+        "portharcourt": "24,000 - 48,000"
+      },
+      "faq": [
+        {
+          "q": "What is the box at the end of my Bosch hose?",
+          "a": "That is the AquaStop system. It contains an electric valve designed to shut off water at the tap if an internal leak is detected."
+        }
+      ],
+      "related": ["E18"]
     },
-
     "E18": {
-      "title": "Bosch Drain Error",
-      "summary": "Machine cannot drain water.",
-      "severity": "Medium Fault Status"
+      "title": "Bosch Washing Machine E18 / F18 Error",
+      "summary": "Drain time exceeded. The pump cannot empty the water within safety parameters.",
+      "severity": "Medium Fault Status",
+      "causes": [
+        "Blockage in the drain pump impeller chamber",
+        "Pinched or restricted discharge hose pipe path",
+        "Drain pump motor electrical winding burn out"
+      ],
+      "checks": [
+        "Unscrew the lower circular front filter cap counterclockwise and check for trapped coins or lint buttons",
+        "Ensure the wall discharge spigot pipe is clear of biological waste buildup"
+      ],
+      "repairs": [
+        "Replacing the magnetic synchronous drain pump motor assembly"
+      ],
+      "repairTime": "30 - 60 Minutes",
+      "cost": {
+        "lagos": "15,000 - 30,000",
+        "abuja": "18,000 - 35,000",
+        "ibadan": "12,000 - 25,000",
+        "kano": "12,000 - 22,000",
+        "portharcourt": "16,000 - 32,000"
+      },
+      "faq": [
+        {
+          "q": "The filter cap is stuck and won't turn. What do I do?",
+          "a": "An object like a coin might be wedged against it from the inside. Do not force it too hard with tools or you will snap the plastic housing; access from the inner hose is required."
+        }
+      ],
+      "related": ["E17", "E23"]
     },
-
-    "E19": {
-      "title": "Bosch Heating Error",
-      "summary": "Water heating failure.",
-      "severity": "High Fault Status"
-    },
-
-    "E21": {
-      "title": "Bosch Motor Error",
-      "summary": "Drive motor fault detected.",
-      "severity": "High Fault Status"
-    },
-
     "E23": {
-      "title": "Bosch Leak Error",
-      "summary": "Leakage protection activated.",
-      "severity": "High Fault Status"
-    },
-
-    "E24": {
-      "title": "Bosch Pump Error",
-      "summary": "Drain pump malfunction.",
-      "severity": "High Fault Status"
+      "title": "Bosch Washing Machine E23 / F23 Error",
+      "summary": "AquaStop leak protection activated. Water has leaked into the base tray floor of the machine.",
+      "severity": "High Fault Status",
+      "causes": [
+        "Split or cracked rubber door gasket (bellows)",
+        "Leaking internal tub connections or split internal hoses",
+        "Failed float switch sensor mechanism in the baseline tray floor"
+      ],
+      "checks": [
+        "Tilt the machine slightly backward to see if water runs out from underneath the base cover (wear gloves)",
+        "Inspect the door rubber seal thoroughly for slits or punctures"
+      ],
+      "repairs": [
+        "Locating and sealing internal fluid leaks, or replacing the complete door rubber boot seal"
+      ],
+      "repairTime": "60 - 120 Minutes",
+      "cost": {
+        "lagos": "18,000 - 42,000",
+        "abuja": "22,000 - 48,000",
+        "ibadan": "15,000 - 35,000",
+        "kano": "14,000 - 32,000",
+        "portharcourt": "20,000 - 45,000"
+      },
+      "faq": [
+        {
+          "q": "Why does the pump run constantly when E23 is displayed?",
+          "a": "This is a built-in safety function. The machine runs the drain pump nonstop to prevent room flooding, even if turned off via the power button."
+        }
+      ],
+      "related": ["E18"]
     }
   },
-
-  "electrolux": {
-    "E10": {
-      "title": "Electrolux Water Supply Error",
-      "summary": "Water filling problem.",
-      "severity": "Medium Fault Status"
+  "whirlpool": {
+    "F05": {
+      "title": "Whirlpool Washing Machine F05 / E02 Error",
+      "summary": "Water temperature sensor (NTC) or heating element malfunction.",
+      "severity": "High Fault Status",
+      "causes": [
+        "Open or short-circuited NTC thermistor sensor wiring",
+        "Burnt out or heavily scaled immersion water heating element",
+        "Relay failure on the primary controller card assembly"
+      ],
+      "checks": [
+        "Run a cold wash cycle to see if the machine skips the error state completely",
+        "Verify standard domestic line voltage supply stability"
+      ],
+      "repairs": [
+        "Replacing the NTC probe sensor or installing a brand new heating element module"
+      ],
+      "repairTime": "45 - 90 Minutes",
+      "cost": {
+        "lagos": "16,000 - 35,000",
+        "abuja": "20,000 - 40,000",
+        "ibadan": "14,000 - 30,000",
+        "kano": "12,000 - 26,000",
+        "portharcourt": "18,000 - 38,000"
+      },
+      "faq": [
+        {
+          "q": "Can I bypass the heater if I only wash with cold water?",
+          "a": "No, because the diagnostic routine verifies sensor baseline values at start-up regardless of chosen temperature settings."
+        }
+      ],
+      "related": ["F08"]
     },
-
-    "E20": {
-      "title": "Electrolux Drain Error",
-      "summary": "Water drainage issue.",
-      "severity": "Medium Fault Status"
+    "F08": {
+      "title": "Whirlpool Washing Machine F08 Error",
+      "summary": "Heater circuit open failure detected by system monitoring logic.",
+      "severity": "High Fault Status",
+      "causes": [
+        "Broken structural core wiring connecting to the heating element at the base of the tub",
+        "Corroded or loose electrical contact terminals",
+        "Complete heating element coil breakdown"
+      ],
+      "checks": [
+        "Unplug power cord, check the structural continuity of the ground and active wires near the heating array layout"
+      ],
+      "repairs": [
+        "Replacement installation of the tub heating element module"
+      ],
+      "repairTime": "45 - 90 Minutes",
+      "cost": {
+        "lagos": "18,000 - 38,000",
+        "abuja": "22,000 - 42,000",
+        "ibadan": "15,000 - 32,000",
+        "kano": "14,000 - 28,000",
+        "portharcourt": "19,000 - 40,000"
+      },
+      "faq": [
+        {
+          "q": "What causes the heater element to burn out?",
+          "a": "Hard mineral water deposits coat the element over time, causing it to overheat and fail internally."
+        }
+      ],
+      "related": ["F05"]
     },
-
-    "E31": {
-      "title": "Electrolux Pressure Sensor Error",
-      "summary": "Water level detection fault.",
-      "severity": "High Fault Status"
-    },
-
-    "E40": {
-      "title": "Electrolux Door Lock Error",
-      "summary": "Door locking failure.",
-      "severity": "Medium Fault Status"
-    },
-
-    "E51": {
-      "title": "Electrolux Motor Control Error",
-      "summary": "Motor controller malfunction.",
-      "severity": "High Fault Status"
+    "F12": {
+      "title": "Whirlpool Washing Machine F12 Error",
+      "summary": "Electrical sub-system control card or communication wiring network failure.",
+      "severity": "Critical Fault Status",
+      "causes": [
+        "Corrosion on data bus connectors inside the upper control housing panel",
+        "Power line voltage spikes causing software hanging errors",
+        "Blown internal control module microchip processors"
+      ],
+      "checks": [
+        "Perform a hard system power reset: isolate power completely for 30 minutes, then restart",
+        "Ensure machine is running through a functional electrical surge protector strip"
+      ],
+      "repairs": [
+        "Soldering trace repairs on the control circuit board assembly or component level replacement"
+      ],
+      "repairTime": "60 - 180 Minutes",
+      "cost": {
+        "lagos": "25,000 - 55,000",
+        "abuja": "30,000 - 65,000",
+        "ibadan": "22,000 - 45,000",
+        "kano": "20,000 - 40,000",
+        "portharcourt": "26,000 - 60,000"
+      },
+      "faq": [
+        {
+          "q": "Does a surge protector safeguard against F12 faults?",
+          "a": "Yes, using a high-quality voltage guard prevents severe power fluctuations from corrupting the electronics."
+        }
+      ],
+      "related": ["F05", "F08"]
     }
   },
-
   "symptoms": {
     "drain_issue": {
       "title": "Washing Machine Drainage Fault",
-      "summary": "Machine retains water and cannot complete cycle.",
+      "summary": "The appliance is retaining water and failing to complete the spin/drain cycle.",
       "severity": "Medium Fault Status",
-      "keywords": [
-        "drain",
-        "water stuck",
-        "not draining",
-        "pump"
-      ]
+      "keywords": ["drain", "draining", "water inside", "water stuck", "clogged pipe"],
+      "causes": [
+        "Clogged debris filter or coin trap",
+        "Kinked or twisted drain discharge hose",
+        "Faulty drain pump motor or broken impeller blades"
+      ],
+      "checks": [
+        "Locate the small access door at the bottom front; manually drain and clear the debris filter.",
+        "Straighten the drain hose at the back of the machine."
+      ],
+      "repairs": [
+        "Drain pump motor electrical resistance checking and full assembly replacement.",
+        "Clearing blockages deep within the internal tub-to-pump hose lines."
+      ],
+      "repairTime": "30 - 60 Minutes",
+      "cost": {
+        "lagos": "12,000 - 25,000",
+        "abuja": "15,000 - 30,000",
+        "ibadan": "10,000 - 20,000",
+        "kano": "10,000 - 20,000",
+        "portharcourt": "14,000 - 28,000"
+      },
+      "faq": [
+        {
+          "q": "Can I leave the water inside overnight?",
+          "a": "It is not recommended, as stagnant water can cause bad odors and leak into electrical components."
+        }
+      ],
+      "related": ["OE Code", "Pump Fault"]
     },
-
-    "not_spinning": {
-      "title": "Machine Not Spinning",
-      "summary": "Drum fails to enter spin cycle.",
+    "no_spin": {
+      "title": "Washing Machine Not Spinning",
+      "summary": "The drum agitates and fills with water, but fails to enter high-speed spinning sequences.",
       "severity": "Medium Fault Status",
-      "keywords": [
-        "spin",
-        "not spinning",
-        "wet clothes"
-      ]
+      "keywords": ["spin", "spinning", "wet clothes", "not spinning", "slow spin"],
+      "causes": [
+        "Severely unbalanced load distribution in the basket",
+        "Worn out or broken carbon motor brushes (on brush-driven motors)",
+        "Stretched or snapped drive belt running between pulley wheels"
+      ],
+      "checks": [
+        "Check if removing half the damp clothing allows the unit to spin safely",
+        "Remove rear maintenance cover plate to verify if the drive belt is still positioned correctly"
+      ],
+      "repairs": [
+        "Swapping out worn motor carbon brushes or replacing a broken rubber drive belt strip"
+      ],
+      "repairTime": "30 - 90 Minutes",
+      "cost": {
+        "lagos": "10,000 - 28,000",
+        "abuja": "12,000 - 32,000",
+        "ibadan": "8,000 - 24,000",
+        "kano": "8,000 - 22,000",
+        "portharcourt": "12,000 - 30,000"
+      },
+      "faq": [
+        {
+          "q": "Why are my clothes soaking wet at the end of the wash cycle?",
+          "a": "If the machine fails to spin due to imbalance or safety codes, it skips directly to cycle termination without extracting the remaining water."
+        }
+      ],
+      "related": ["UE Code", "UB Code", "Belt Fault"]
     },
-
     "water_leak": {
-      "title": "Water Leakage",
-      "summary": "Water escaping from appliance.",
+      "title": "Washing Machine Leaking Water",
+      "summary": "Pools of clean or soapy water are accumulating beneath or in front of the machine housing.",
       "severity": "High Fault Status",
-      "keywords": [
-        "leak",
-        "water on floor",
-        "overflow"
-      ]
+      "keywords": ["leak", "leaking", "water floor", "flooding", "puddle"],
+      "causes": [
+        "Puncture or tear on the front rubber door bellows seal",
+        "Loose or cross-threaded water intake hose coupling joints",
+        "Cracked or broken detergent dispenser drawer channel"
+      ],
+      "checks": [
+        "Run a short rinse test while visually monitoring the perimeter lines of the front door seal rubber",
+        "Feel the top back corners of the unit for wet signs indicating faulty plumbing links"
+      ],
+      "repairs": [
+        "Stripping and installing a replacement door door seal liner ring or sealing internal pipe junctions"
+      ],
+      "repairTime": "45 - 120 Minutes",
+      "cost": {
+        "lagos": "15,000 - 40,000",
+        "abuja": "18,000 - 45,000",
+        "ibadan": "12,000 - 35,000",
+        "kano": "12,000 - 30,000",
+        "portharcourt": "16,000 - 42,000"
+      },
+      "faq": [
+        {
+          "q": "Is it safe to use a leaking washing machine?",
+          "a": "No, water pool leakage close to electrical assemblies like the motor or control base presents a severe short-circuit and shock risk."
+        }
+      ],
+      "related": ["E23 Code", "Gasket Fault"]
     },
-
-    "door_wont_open": {
-      "title": "Door Stuck Closed",
-      "summary": "Door remains locked after cycle.",
-      "severity": "Medium Fault Status",
-      "keywords": [
-        "door stuck",
-        "locked door",
-        "cannot open"
-      ]
-    },
-
-    "not_filling": {
-      "title": "Machine Not Filling With Water",
-      "summary": "Tub remains empty after starting cycle.",
-      "severity": "Medium Fault Status",
-      "keywords": [
-        "not filling",
-        "no water",
-        "water supply"
-      ]
-    },
-
-    "excess_vibration": {
-      "title": "Excessive Vibration",
-      "summary": "Machine shakes excessively during operation.",
-      "severity": "Low Fault Status",
-      "keywords": [
-        "vibration",
-        "shaking",
-        "banging noise"
-      ]
-    },
-
-    "burning_smell": {
-      "title": "Burning Smell",
-      "summary": "Electrical or mechanical overheating detected.",
-      "severity": "Critical Fault Status",
-      "keywords": [
-        "burning smell",
-        "smoke",
-        "overheating"
-      ]
+    "excessive_noise": {
+      "title": "Loud Noise or Heavy Vibrations",
+      "summary": "The unit makes extreme rumbling, metal grinding, or violent banging sounds during spinning phases.",
+      "severity": "High Fault Status",
+      "keywords": ["noise", "loud", "banging", "vibrating", "grinding", "shaking"],
+      "causes": [
+        "Failed, rusted, or collapsed internal main tub steel bearings",
+        "Damaged internal shock absorbers or broken stabilization springs",
+        "Shipping bolts left inside the rear casing from initial installation setup"
+      ],
+      "checks": [
+        "Spin the empty drum manually by hand when off; listen for a rough gravel-like grinding noise",
+        "Push down on the drum to check if it springs back into place firmly without bouncing excessively"
+      ],
+      "repairs": [
+        "Complete teardown of outer tub to replace main bearings and water seal rings, or installing new shock absorbers"
+      ],
+      "repairTime": "90 - 240 Minutes",
+      "cost": {
+        "lagos": "25,000 - 65,000",
+        "abuja": "30,000 - 70,000",
+        "ibadan": "20,000 - 55,000",
+        "kano": "18,000 - 45,000",
+        "portharcourt": "26,000 - 65,000"
+      },
+      "faq": [
+        {
+          "q": "What happens if I ignore a loud grinding bearing noise?",
+          "a": "The metal inner shaft will eventually score and warp the plastic rear tub casing, turning a bearing replacement fix into a total machine write-off."
+        }
+      ],
+      "related": ["UE Code", "Bearing Fault", "Suspension Fault"]
     }
   }
 }
