@@ -23,7 +23,7 @@
         "ibadan": "12,000 - 30,000",
         "kano": "12,000 - 28,000",
         "portharcourt": "18,000 - 42,000"
-      ],
+      },
       "faq": [
         {
           "q": "Can low overhead tank pressure cause this code?",
@@ -56,7 +56,7 @@
         "ibadan": "10,000 - 20,000",
         "kano": "10,000 - 20,000",
         "portharcourt": "14,000 - 28,000"
-      ],
+      },
       "faq": [
         {
           "q": "How can I safely empty the machine with water stuck inside?",
@@ -88,7 +88,7 @@
         "ibadan": "8,000 - 15,000",
         "kano": "8,000 - 15,000",
         "portharcourt": "12,000 - 22,000"
-      ],
+      },
       "faq": [
         {
           "q": "What is the difference between small 'uE' and capital 'UE'?",
@@ -121,7 +121,7 @@
         "ibadan": "20,000 - 45,000",
         "kano": "18,000 - 40,000",
         "portharcourt": "28,000 - 60,000"
-      ],
+      },
       "faq": [
         {
           "q": "Does a burning smell accompany the LE error code layout?",
@@ -153,7 +153,7 @@
         "ibadan": "10,000 - 18,000",
         "kano": "9,000 - 18,000",
         "portharcourt": "14,000 - 26,000"
-      ],
+      },
       "faq": [
         {
           "q": "Can I bypass this door lock using wiring jumps?",
@@ -185,7 +185,7 @@
         "ibadan": "12,000 - 25,000",
         "kano": "11,000 - 25,000",
         "portharcourt": "16,000 - 36,000"
-      ],
+      },
       "faq": [
         {
           "q": "Why does the drain pump run continuously when FE displays?",
@@ -216,7 +216,7 @@
         "ibadan": "11,000 - 22,000",
         "kano": "10,000 - 20,000",
         "portharcourt": "15,000 - 30,000"
-      ],
+      },
       "faq": [],
       "related": ["FE", "IE"]
     },
@@ -242,7 +242,7 @@
         "ibadan": "10,000 - 20,000",
         "kano": "10,000 - 18,000",
         "portharcourt": "14,000 - 28,000"
-      ],
+      },
       "faq": [],
       "related": ["CE"]
     },
@@ -268,7 +268,7 @@
         "ibadan": "22,000 - 50,000",
         "kano": "20,000 - 45,000",
         "portharcourt": "30,000 - 65,000"
-      ],
+      },
       "faq": [],
       "related": ["LE", "AE"]
     },
@@ -294,7 +294,7 @@
         "ibadan": "12,000 - 28,000",
         "kano": "12,000 - 25,000",
         "portharcourt": "16,000 - 38,000"
-      ],
+      },
       "faq": [],
       "related": ["OE", "FE"]
     },
@@ -316,7 +316,7 @@
         "ibadan": "0",
         "kano": "0",
         "portharcourt": "0"
-      ],
+      },
       "faq": [
         {
           "q": "Why won't the door open when CL is displayed?",
@@ -344,7 +344,7 @@
         "ibadan": "0",
         "kano": "0",
         "portharcourt": "0"
-      ],
+      },
       "faq": [
         {
           "q": "Can I use standard hand-wash detergent?",
@@ -378,7 +378,7 @@
         "ibadan": "12,000 - 30,000",
         "kano": "12,000 - 28,000",
         "portharcourt": "18,000 - 42,000"
-      ],
+      },
       "faq": [
         {
           "q": "Is this exactly corresponding to legacy 4E indicators?",
@@ -411,7 +411,7 @@
         "ibadan": "10,000 - 22,000",
         "kano": "10,000 - 20,000",
         "portharcourt": "15,000 - 30,000"
-      ],
+      },
       "faq": [
         {
           "q": "My dashboard screen outputs 5E. Is it matching?",
@@ -444,7 +444,7 @@
         "ibadan": "12,000 - 25,000",
         "kano": "10,000 - 22,000",
         "portharcourt": "15,000 - 32,000"
-      ],
+      },
       "faq": [
         {
           "q": "Does this fault affect both top-load and front-load setups?",
@@ -455,7 +455,7 @@
     },
     "UE": { "aliasOf": "UB" },
     "DE": {
-      "title": "Samsung Door Closing Safety Fault (DE)",
+      "title": "Samsung Door Closing Safety Fault (dE)",
       "summary": "The control logic cannot pass safety checks because the door status module reports an open state circuit.",
       "severity": "Medium Fault Status",
       "causes": [
@@ -476,7 +476,7 @@
         "ibadan": "10,000 - 20,000",
         "kano": "9,000 - 18,000",
         "portharcourt": "14,000 - 28,000"
-      ],
+      },
       "faq": [],
       "related": ["CL"]
     },
@@ -502,7 +502,7 @@
         "ibadan": "12,000 - 28,000",
         "kano": "12,000 - 25,000",
         "portharcourt": "16,000 - 38,000"
-      ],
+      },
       "faq": [
         {
           "q": "Can I use cold cycles if HE stays active?",
@@ -533,7 +533,7 @@
         "ibadan": "11,000 - 25,000",
         "kano": "10,000 - 22,000",
         "portharcourt": "15,000 - 35,000"
-      ],
+      },
       "faq": [],
       "related": ["5C", "LC"]
     },
@@ -560,12 +560,12 @@
         "ibadan": "20,000 - 45,000",
         "kano": "18,000 - 40,000",
         "portharcourt": "25,000 - 60,000"
-      ],
+      },
       "faq": [],
       "related": ["UC", "UB"]
     },
     "SUD": {
-      "title": "Samsung Suds Lock Safety Detection (SUD)",
+      "title": "Samsung Suds Lock Safety Detection (Sud)",
       "summary": "Excessive soap foam has filled the drum cavity, stalling normal cycle operation parameters.",
       "severity": "Low Maintenance Status",
       "causes": [
@@ -582,12 +582,12 @@
         "ibadan": "0",
         "kano": "0",
         "portharcourt": "0"
-      ],
+      },
       "faq": [],
       "related": ["5C"]
     },
     "NF": {
-      "title": "Samsung No Fill Timed Out Alert (NF)",
+      "title": "Samsung No Fill Timed Out Alert (nF)",
       "summary": "The system has failed to confirm water entry matching low-level baseline steps within its safety timelines.",
       "severity": "Medium Fault Status",
       "causes": [
@@ -607,7 +607,7 @@
         "ibadan": "12,000 - 30,000",
         "kano": "12,000 - 28,000",
         "portharcourt": "18,000 - 42,000"
-      ],
+      },
       "faq": [],
       "related": ["4C"]
     },
@@ -632,7 +632,7 @@
         "ibadan": "12,000 - 35,000",
         "kano": "12,000 - 30,000",
         "portharcourt": "16,000 - 42,000"
-      ],
+      },
       "faq": [
         {
           "q": "What kVA generator is recommended safely?",
@@ -640,6 +640,200 @@
         }
       ],
       "related": ["3E", "HE"]
+    }
+  },
+  "hisense": {
+    "F01": {
+      "title": "Hisense Washing Machine F01 Error",
+      "summary": "Water inlet configuration time limit tracking exceeded. System feed lines checking failed to register volume additions.",
+      "severity": "Medium Fault Status",
+      "causes": [
+        "Inlet control valve screen blocks",
+        "Defective internal flow meter calculation mechanics",
+        "Inadequate pressurized water framework lines flow velocities"
+      ],
+      "checks": [
+        "Ensure connection supply pipe interfaces are free of manual restriction turns",
+        "Detach hose line link arrays and flush out mineral scale sedimentation groupings"
+      ],
+      "repairs": [
+        "Installation changes targeting electronic direct-feed solenoid flow assemblies"
+      ],
+      "repairTime": "30 - 90 Minutes",
+      "cost": {
+        "lagos": "14,000 - 32,000",
+        "abuja": "18,000 - 38,000",
+        "ibadan": "12,000 - 26,000",
+        "kano": "11,000 - 25,000",
+        "portharcourt": "16,000 - 35,000"
+      },
+      "faq": [
+        {
+          "q": "Why does it wait a few minutes before throwing F01?",
+          "a": "The computer lets the valve stay open for 6 minutes. If the pressure switch registers no water weight, it alerts safety shutdowns."
+        }
+      ],
+      "related": ["F03", "F04", "UNB"]
+    },
+    "F03": {
+      "title": "Hisense Washing Machine F03 Error",
+      "summary": "Drainage failure tracking alert. Water level monitoring module registered complete drain path blocks.",
+      "severity": "Medium Fault Status",
+      "causes": [
+        "Foreign materials caught inside the primary lower impeller shell layout",
+        "Internal drainage transfer trunk line collapse scenarios",
+        "Faulty electronic terminal board control switching relay modules"
+      ],
+      "checks": [
+        "Clear out lower compartment cleanout trap structures immediately",
+        "Verify discharge pipeline paths discharge without localized compression"
+      ],
+      "repairs": [
+        "Replacement installation targeting internal 220V synchronous electric layout motor pumps"
+      ],
+      "repairTime": "30 - 60 Minutes",
+      "cost": {
+        "lagos": "12,000 - 24,000",
+        "abuja": "15,000 - 28,000",
+        "ibadan": "10,000 - 20,000",
+        "kano": "10,000 - 20,000",
+        "portharcourt": "14,000 - 26,000"
+      },
+      "faq": [
+        {
+          "q": "Will manual clearing erase the display flash?",
+          "a": "Yes, once water drops below safety benchmarks and operational cycles undergo hard resets."
+        }
+      ],
+      "related": ["F01", "F07", "F13"]
+    },
+    "UNB": {
+      "title": "Hisense Washing Machine UNB Error",
+      "summary": "Unbalanced payload mass distributions prevented safely transitioning into high velocity rotation speeds.",
+      "severity": "Low Maintenance Status",
+      "causes": [
+        "Unequal mass clump configurations inside internal processing tubs",
+        "Chassis installation leveling foot systems shifted loose over operational lifespans"
+      ],
+      "checks": [
+        "Redistribute wet cloth masses across inner storage environments carefully by hand",
+        "Adjust structural threaded floor pads to establish rock-solid frame posture profiles"
+      ],
+      "repairs": [
+        "Chassis balance correction or tracking component dampener strut renewal work sequences"
+      ],
+      "repairTime": "20 - 50 Minutes",
+      "cost": {
+        "lagos": "10,000 - 22,000",
+        "abuja": "12,000 - 26,000",
+        "ibadan": "9,000 - 18,000",
+        "kano": "8,000 - 16,000",
+        "portharcourt": "12,000 - 24,000"
+      },
+      "faq": [
+        {
+          "q": "How can I avoid getting UNB alarms?",
+          "a": "Avoid washing heavy individual sheets mixed with lightweight cotton fabrics together."
+        }
+      ],
+      "related": ["F03", "F14"]
+    }
+  },
+  "haier": {
+    "E1": {
+      "title": "Haier Washing Machine E1 Error",
+      "summary": "Water filling limits logic tracking timed out. Target operational volumes failed verification.",
+      "severity": "Medium Fault Status",
+      "causes": [
+        "Low external local utility pressure network delivery baselines",
+        "Scale obstruction arrays at input filtration junctions",
+        "Internal wiring open circuit states connecting supply inputs"
+      ],
+      "checks": [
+        "Uncouple intake joints and confirm clear water flows run out of lines natively",
+        "Scrub internal plastic input screens clean using a brush tool profile"
+      ],
+      "repairs": [
+        "Replacing failing high durability magnetic direct control fluid intake modular structures"
+      ],
+      "repairTime": "30 - 80 Minutes",
+      "cost": {
+        "lagos": "13,000 - 30,000",
+        "abuja": "16,000 - 35,000",
+        "ibadan": "11,000 - 25,000",
+        "kano": "10,000 - 22,000",
+        "portharcourt": "15,000 - 32,000"
+      },
+      "faq": [
+        {
+          "q": "Can a bad pressure switch trigger this E1 code configuration?",
+          "a": "Yes. If the sensor tube gets clogged with scale, the main CPU chip cannot map volume increases properly."
+        }
+      ],
+      "related": ["E2", "E4", "Unb"]
+    },
+    "E2": {
+      "title": "Haier Washing Machine E2 Error",
+      "summary": "Drain block tracking activated. Fluids failed to exit within maximum structural windows.",
+      "severity": "Medium Fault Status",
+      "causes": [
+        "Trapped debris blocking internal mechanical water pump impeller vanes",
+        "Collapsed underpan flexible transfer structural lines links",
+        "Control board power supply relay failures for extraction sub-assemblies"
+      ],
+      "checks": [
+        "Manually drop backend connection line segments flat down to check gravity exit paths directly",
+        "Inspect lower service access plug layouts for hidden fabric debris or small items"
+      ],
+      "repairs": [
+        "Full core tracking restoration including installation changes for internal pump motors"
+      ],
+      "repairTime": "30 - 60 Minutes",
+      "cost": {
+        "lagos": "12,000 - 25,000",
+        "abuja": "15,000 - 30,000",
+        "ibadan": "10,000 - 20,000",
+        "kano": "10,000 - 20,000",
+        "portharcourt": "14,000 - 28,000"
+      },
+      "faq": [
+        {
+          "q": "Why does my Haier run logic beep when E2 flashes?",
+          "a": "It is an audio warning safeguard designed to prevent structural flood risks across localized workspaces."
+        }
+      ],
+      "related": ["E1", "E3", "F3"]
+    },
+    "UNB": {
+      "title": "Haier Washing Machine UNB Error",
+      "summary": "Centrifugal run calculations aborted safely following heavy off-center drum shift actions.",
+      "severity": "Low Maintenance Status",
+      "causes": [
+        "Fabric mass grouping imbalances across interior layout sections",
+        "Damaged under-chassis support dampening rod spring setups"
+      ],
+      "checks": [
+        "Redistribute bundled fabric pieces evenly across drum environments",
+        "Manually test chassis level state consistency across local floor configurations"
+      ],
+      "repairs": [
+        "Structural level calibrations or replacement changes for internal stabilizing tension lines"
+      ],
+      "repairTime": "25 - 55 Minutes",
+      "cost": {
+        "lagos": "11,000 - 24,000",
+        "abuja": "14,000 - 28,000",
+        "ibadan": "10,000 - 20,000",
+        "kano": "9,000 - 18,000",
+        "portharcourt": "13,000 - 26,000"
+      },
+      "faq": [
+        {
+          "q": "Can I bypass this balance protection alert tracking option?",
+          "a": "No. Disabling safety checks risks critical structural damage to outer tub housing frameworks."
+        }
+      ],
+      "related": ["E2", "E8"]
     }
   },
   "whirlpool": {
@@ -664,7 +858,7 @@
         "ibadan": "25,000 - 55,000",
         "kano": "22,000 - 50,000",
         "portharcourt": "32,000 - 70,000"
-      ],
+      },
       "faq": [],
       "related": ["F6"]
     },
@@ -689,7 +883,7 @@
         "ibadan": "10,000 - 20,000",
         "kano": "10,000 - 20,000",
         "portharcourt": "14,000 - 28,000"
-      ],
+      },
       "faq": [],
       "related": ["F9E1"]
     },
@@ -714,7 +908,7 @@
         "ibadan": "11,000 - 22,000",
         "kano": "10,000 - 20,000",
         "portharcourt": "15,000 - 30,000"
-      ],
+      },
       "faq": [],
       "related": ["F1E1"]
     },
@@ -739,7 +933,7 @@
         "ibadan": "18,000 - 40,000",
         "kano": "16,000 - 38,000",
         "portharcourt": "24,000 - 55,000"
-      ],
+      },
       "faq": [],
       "related": ["F1E1", "UL"]
     },
@@ -749,24 +943,575 @@
       "severity": "Medium Fault Status",
       "causes": [
         "Low pressure overhead feed lines or blocked rear connector filter caps",
-        "Defective intake electrical solenoid assembly valve mechanics"
+        "Defective intake solenoid control values"
       ],
       "checks": [
-        "Disconnect rear hoses to clean the integrated stainless internal screen structures directly"
+        "Check that the water tap feeding the machine is fully open and that your supply tank isn't empty"
       ],
       "repairs": [
-        "Installation change replacement targeting the standard modular inlet line distributor valves"
+        "Installing a replacement water valve configuration panel manifold cluster"
       ],
       "repairTime": "30 - 60 Minutes",
+      "cost": {
+        "lagos": "15,000 - 35,000",
+        "abuja": "18,000 - 40,000",
+        "ibadan": "12,000 - 30,000",
+        "kano": "12,000 - 28,000",
+        "portharcourt": "18,000 - 42,000"
+      },
+      "faq": [],
+      "related": ["F2"]
+    },
+    "F9E1": {
+      "title": "Whirlpool Long Drain Error (F9E1)",
+      "summary": "Wastewater evacuation parameters are scaling too long, tracking past safe operation profiles.",
+      "severity": "Medium Fault Status",
+      "causes": [
+        "Deeply lodged clothing fragments inside internal tub-to-pump transfer pipes",
+        "Failing extraction pump motor efficiency"
+      ],
+      "checks": [
+        "Verify that your external drainage piping layout is not fully submerged inside floor trap pipes creating suction loops"
+      ],
+      "repairs": [
+        "Clearing deep interior blocks or replacing weak performance drain pump units"
+      ],
+      "repairTime": "30 - 60 Minutes",
+      "cost": {
+        "lagos": "12,000 - 25,000",
+        "abuja": "15,000 - 30,000",
+        "ibadan": "10,000 - 20,000",
+        "kano": "10,000 - 20,000",
+        "portharcourt": "14,000 - 28,000"
+      },
+      "faq": [],
+      "related": ["F2"]
+    },
+    "UL": {
+      "title": "Whirlpool Unbalanced Load Lockout (UL)",
+      "summary": "The electronic balancing safety triggers were activated due to off-center wash load distributions.",
+      "severity": "Low Maintenance Status",
+      "causes": [
+        "Clumped high-density fabrics shifting center-of-mass lines during spin acceleration profiles"
+      ],
+      "checks": [
+        "Pause operation, rearrange waterlogged towels or jeans uniformly around the drum, and restart"
+      ],
+      "repairs": [],
+      "repairTime": "15 - 30 Minutes",
+      "cost": {
+        "lagos": "0",
+        "abuja": "0",
+        "ibadan": "0",
+        "kano": "0",
+        "portharcourt": "0"
+      },
+      "faq": [],
+      "related": ["F6"]
+    },
+    "SUD": {
+      "title": "Whirlpool Excess Suds Warning (Sud)",
+      "summary": "High concentrations of chemical lather have triggered safety air pressure locks.",
+      "severity": "Low Maintenance Status",
+      "causes": [
+        "Using excessive laundry soap quantities or non-front-load rated high-foam standard detergents"
+      ],
+      "checks": [
+        "Let the washing machine stand idle to dissolve suds naturally. Run a drain or rinse cycle without adding any extra soap."
+      ],
+      "repairs": [],
+      "repairTime": "15 - 45 Minutes",
+      "cost": {
+        "lagos": "0",
+        "abuja": "0",
+        "ibadan": "0",
+        "kano": "0",
+        "portharcourt": "0"
+      },
+      "faq": [],
+      "related": ["F2"]
+    }
+  },
+  "bosch": {
+    "E16": {
+      "title": "Bosch Door Not Latched Error (E16)",
+      "summary": "The main system lock switch cannot confirm that the front hatch door is locked securely.",
+      "severity": "Medium Fault Status",
+      "causes": [
+        "Physical interface items caught in the door bezel, or a faulty lock interlock switch module"
+      ],
+      "checks": [
+        "Firmly push the door closed until you hear a clear mechanical engagement click"
+      ],
+      "repairs": [
+        "Replacing the electronic safety door interlocking solenoid latch module"
+      ],
+      "repairTime": "20 - 45 Minutes",
+      "cost": {
+        "lagos": "15,000 - 30,000",
+        "abuja": "18,000 - 35,000",
+        "ibadan": "12,000 - 25,000",
+        "kano": "11,000 - 22,000",
+        "portharcourt": "16,000 - 32,000"
+      },
+      "faq": [],
+      "related": ["F16"]
+    },
+    "F16": { "aliasOf": "E16" },
+    "E17": {
+      "title": "Bosch Water Fill Configuration Fault (E17)",
+      "summary": "Water supply entry rates failed to clear monitoring levels within calibrated safety time limits.",
+      "severity": "Medium Fault Status",
+      "causes": [
+        "Closed supply lines, weak borehole pump pressures, or scale-clogged entry screens"
+      ],
+      "checks": [
+        "Check that your main water feeds flow cleanly and clean the inlet hose connector meshes"
+      ],
+      "repairs": [
+        "Replacing the high-durability internal magnetic water input valve assembly"
+      ],
+      "repairTime": "30 - 60 Minutes",
+      "cost": {
+        "lagos": "16,000 - 38,000",
+        "abuja": "20,000 - 45,000",
+        "ibadan": "14,000 - 32,000",
+        "kano": "12,000 - 30,000",
+        "portharcourt": "18,000 - 42,000"
+      },
+      "faq": [],
+      "related": ["F17", "E28"]
+    },
+    "F17": { "aliasOf": "E17" },
+    "E18": {
+      "title": "Bosch Wastewater Extraction Problem (E18)",
+      "summary": "Wastewater extraction parameters failed to drain the tub within maximum structural windows.",
+      "severity": "Medium Fault Status",
+      "causes": [
+        "Trapped debris blocking internal pump vanes or a completely burned out drain motor"
+      ],
+      "checks": [
+        "Unscrew the lower right coin trap screw assembly and manually extract any blockages"
+      ],
+      "repairs": [
+        "Full installation replacement of the low-profile under-chassis drainage pump assembly"
+      ],
+      "repairTime": "30 - 60 Minutes",
+      "cost": {
+        "lagos": "14,000 - 28,000",
+        "abuja": "16,000 - 32,000",
+        "ibadan": "11,000 - 22,000",
+        "kano": "10,000 - 20,000",
+        "portharcourt": "15,000 - 30,000"
+      },
+      "faq": [],
+      "related": ["F18", "E24"]
+    },
+    "F18": { "aliasOf": "E18" },
+    "E19": {
+      "title": "Bosch Water Heating Timeout Fault (E19)",
+      "summary": "Water heating parameters scaled out of bounds due to heating element component failures.",
+      "severity": "High Critical Status",
+      "causes": [
+        "Open electrical circuit breaks inside the core heating elements or high scale insulation build-ups"
+      ],
+      "checks": [
+        "Execute a system hard reset by disconnecting all electrical line power for 15 minutes"
+      ],
+      "repairs": [
+        "Full core tracking restoration including installation replacement of internal heating element rods"
+      ],
+      "repairTime": "45 - 90 Minutes",
+      "cost": {
+        "lagos": "18,000 - 40,000",
+        "abuja": "22,000 - 46,000",
+        "ibadan": "15,000 - 35,000",
+        "kano": "14,000 - 30,000",
+        "portharcourt": "20,000 - 42,000"
+      },
+      "faq": [],
+      "related": ["F19"]
+    },
+    "F19": { "aliasOf": "E19" },
+    "E21": {
+      "title": "Bosch Drive Motor Critical Failure (E21)",
+      "summary": "The electronic controller has flagged a critical motor error or breakdown in rotor operations.",
+      "severity": "High Critical Status",
+      "causes": [
+        "Worn-out engine carbon contact brushes or internal short circuit failures within the stator windings"
+      ],
+      "checks": [
+        "Turn off the power lines instantly. Do not attempt manual restarts to safeguard your main PCB traces"
+      ],
+      "repairs": [
+        "Technical installation replacement of motor brushes or full drive unit replacement matching the original specifications"
+      ],
+      "repairTime": "45 - 120 Minutes",
+      "cost": {
+        "lagos": "25,000 - 55,000",
+        "abuja": "30,000 - 65,000",
+        "ibadan": "20,000 - 45,000",
+        "kano": "18,000 - 40,000",
+        "portharcourt": "28,000 - 60,000"
+      },
+      "faq": [],
+      "related": ["F21", "E43", "E50"]
+    },
+    "F21": { "aliasOf": "E21" },
+    "E22": {
+      "title": "Bosch AquaStop Leak Protection Active (E22)",
+      "summary": "The internal structural base float sensors have triggered an automated shutdown due to active internal leaks.",
+      "severity": "High Safety Status",
+      "causes": [
+        "Internal tub punctures, loose inner piping connection clamps, or split supply lines"
+      ],
+      "checks": [
+        "Inspect around the bottom framework edges to confirm if liquid pooling has reached baseline floors"
+      ],
+      "repairs": [
+        "Locating the underlying split component line and resetting the electronic safety sensor switch blocks"
+      ],
+      "repairTime": "45 - 90 Minutes",
+      "cost": {
+        "lagos": "16,000 - 35,000",
+        "abuja": "20,000 - 42,000",
+        "ibadan": "12,000 - 28,000",
+        "kano": "12,000 - 25,000",
+        "portharcourt": "18,000 - 38,000"
+      },
+      "faq": [],
+      "related": ["F23", "E23"]
+    },
+    "E23": { "aliasOf": "E22" },
+    "F23": { "aliasOf": "E22" },
+    "E24": {
+      "title": "Bosch Extraction Pump Failure (E24)",
+      "summary": "The diagnostic systems have flagged complete electrical or mechanical drain pump blockages.",
+      "severity": "Medium Fault Status",
+      "causes": [
+        "Impeller blades locked up by foreign objects or an internal wiring circuit failure"
+      ],
+      "checks": [
+        "Clean out the front core pump trap filter assembly and inspect for wound thread blocks around the center spin pins"
+      ],
+      "repairs": [
+        "Replacing the synchronous drainage pump motor block assembly"
+      ],
+      "repairTime": "30 - 60 Minutes",
+      "cost": {
+        "lagos": "14,000 - 28,000",
+        "abuja": "16,000 - 32,000",
+        "ibadan": "11,000 - 22,000",
+        "kano": "10,000 - 20,000",
+        "portharcourt": "15,000 - 30,000"
+      },
+      "faq": [],
+      "related": ["E18"]
+    },
+    "E28": {
+      "title": "Bosch Water Flow Sensor Error (E28)",
+      "summary": "The flow meter componentry is outputting faulty readings, blinding the central processing module to fluid volume levels.",
+      "severity": "Medium Fault Status",
+      "causes": [
+        "Internal impeller sensor breaks inside the water tracking block, or severe limescale clogging"
+      ],
+      "checks": [
+        "Isolate electrical lines and verify if your general supply flow velocity meets normal requirements"
+      ],
+      "repairs": [
+        "Replacing the inline electronic flow meter sensor module components"
+      ],
+      "repairTime": "30 - 75 Minutes",
       "cost": {
         "lagos": "15,000 - 32,000",
         "abuja": "18,000 - 38,000",
         "ibadan": "12,000 - 25,000",
-        "kano": "11,000 - 25,000",
+        "kano": "11,000 - 22,000",
         "portharcourt": "16,000 - 36,000"
-      ],
+      },
       "faq": [],
-      "related": ["F1E1"]
+      "related": ["E17"]
+    },
+    "E43": { "aliasOf": "E21" },
+    "E50": { "aliasOf": "E21" }
+  },
+  "electrolux": {
+    "E10": {
+      "title": "Electrolux Water Inlet Fault (E10)",
+      "summary": "The system has flagged an inability to draw adequate water volumes into the processing drum tub.",
+      "severity": "Medium Fault Status",
+      "causes": [
+        "Closed external link valves, weak supply lines pressure, or clogged rear connector mesh caps"
+      ],
+      "checks": [
+        "Verify that your water feed channels are open and clean out the input sediment screens"
+      ],
+      "repairs": [
+        "Replacing the high durability magnetic control fluid intake modular switch valve cluster"
+      ],
+      "repairTime": "30 - 60 Minutes",
+      "cost": {
+        "lagos": "15,000 - 35,000",
+        "abuja": "18,000 - 40,000",
+        "ibadan": "12,000 - 30,000",
+        "kano": "12,000 - 28,000",
+        "portharcourt": "18,000 - 42,000"
+      },
+      "faq": [],
+      "related": ["E11"]
+    },
+    "E11": { "aliasOf": "E10" },
+    "E13": {
+      "title": "Electrolux Leakage Detection Active (E13)",
+      "summary": "An active water level drop or floor pan leak float detection safety warning has been triggered.",
+      "severity": "High Safety Status",
+      "causes": [
+        "Punctured tub connection links, split gaskets, or broken connection hose couplings"
+      ],
+      "checks": [
+        "Visually inspect underneath your machine casing footprint to locate localized water drops"
+      ],
+      "repairs": [
+        "Tracking and replacing compromised internal rubber distribution lines or sealing joint leaks"
+      ],
+      "repairTime": "40 - 90 Minutes",
+      "cost": {
+        "lagos": "14,000 - 32,000",
+        "abuja": "16,000 - 38,000",
+        "ibadan": "11,000 - 25,000",
+        "kano": "10,000 - 22,000",
+        "portharcourt": "15,000 - 35,000"
+      },
+      "faq": [],
+      "related": ["E20"]
+    },
+    "E20": {
+      "title": "Electrolux Drain Path Blockage (E20)",
+      "summary": "Water drainage tracking failed, tracking fluid accumulation past safety cycle timeline limits.",
+      "severity": "Medium Fault Status",
+      "causes": [
+        "Trapped fibers or foreign objects blocking lower clean-out chamber block impellers"
+      ],
+      "checks": [
+        "Clean out the bottom front corner trap cap and ensure the discharge pipe height is correctly configured"
+      ],
+      "repairs": [
+        "Full replacement changes for internal centrifugal layout synchronous motor pumps"
+      ],
+      "repairTime": "30 - 60 Minutes",
+      "cost": {
+        "lagos": "12,000 - 25,000",
+        "abuja": "15,000 - 30,000",
+        "ibadan": "10,000 - 20,000",
+        "kano": "10,000 - 20,000",
+        "portharcourt": "14,000 - 28,000"
+      },
+      "faq": [],
+      "related": ["E21", "E22"]
+    },
+    "E21": { "aliasOf": "E20" },
+    "E22": { "aliasOf": "E20" },
+    "E31": {
+      "title": "Electrolux Pressure Sensor Error (E31)",
+      "summary": "The main electronic board has registered out-of-bounds component frequencies from the level sensor switch.",
+      "severity": "Medium Fault Status",
+      "causes": [
+        "Corroded terminal connection contacts or split air compression switch tube lines"
+      ],
+      "checks": [
+        "Isolate power, remove top covers, and check the narrow translucent air tube paths for damage"
+      ],
+      "repairs": [
+        "Replacing the internal electronic pressure tracking switch components"
+      ],
+      "repairTime": "25 - 50 Minutes",
+      "cost": {
+        "lagos": "14,000 - 28,000",
+        "abuja": "16,000 - 32,000",
+        "ibadan": "11,000 - 22,000",
+        "kano": "10,000 - 20,000",
+        "portharcourt": "15,000 - 30,000"
+      },
+      "faq": [],
+      "related": ["E10"]
+    },
+    "E40": {
+      "title": "Electrolux Door Safety Lockout (E40)",
+      "summary": "Safety check loops cannot proceed because the door status module reports an unlatched state configuration.",
+      "severity": "Medium Fault Status",
+      "causes": [
+        "Damaged door hook bars or burned out electrical switch contacts inside the interlock block"
+      ],
+      "checks": [
+        "Ensure no fabric tags are blocking the lock slot, then push the door shut firmly"
+      ],
+      "repairs": [
+        "Removing and replacing the integrated door safety interlock lock toggle box assembly"
+      ],
+      "repairTime": "20 - 45 Minutes",
+      "cost": {
+        "lagos": "13,000 - 25,000",
+        "abuja": "15,000 - 30,000",
+        "ibadan": "10,000 - 20,000",
+        "kano": "9,000 - 18,000",
+        "portharcourt": "14,000 - 28,000"
+      },
+      "faq": [],
+      "related": []
+    },
+    "E51": {
+      "title": "Electrolux Motor Control Board Error (E51)",
+      "summary": "A fatal power tracking failure or triac short circuit was identified within the main motor drive board modules.",
+      "severity": "High Critical Status",
+      "causes": [
+        "Unstable grid power voltage spikes or internal winding terminal short-circuits"
+      ],
+      "checks": [
+        "Isolate electrical lines and perform an engineering system reset for 20 minutes"
+      ],
+      "repairs": [
+        "Component-level power track tracing repairs or full replacement of the motor control board module"
+      ],
+      "repairTime": "45 - 120 Minutes",
+      "cost": {
+        "lagos": "26,000 - 58,000",
+        "abuja": "30,000 - 68,000",
+        "ibadan": "22,000 - 48,000",
+        "kano": "18,000 - 42,000",
+        "portharcourt": "28,000 - 62,000"
+      },
+      "faq": [],
+      "related": ["E20"]
+    }
+  },
+  "symptoms": {
+    "drain_issue": {
+      "title": "Washing Machine Drainage Fault",
+      "summary": "The appliance is retaining water and failing to complete the spin/drain cycle.",
+      "severity": "Medium Fault Status",
+      "keywords": ["drain", "draining", "water inside", "water stuck", "clogged pipe", "not draining", "drain error", "oe", "e2", "5c", "5e", "f9e1", "e18", "e20", "e21", "f2"],
+      "causes": [
+        "Clogged debris filter or coin trap",
+        "Kinked or twisted drain discharge hose",
+        "Faulty drain pump motor or broken impeller blades"
+      ],
+      "checks": [
+        "Locate the small access door at the bottom front; manually drain and clear the debris filter.",
+        "Straighten the drain hose at the back of the machine."
+      ],
+      "repairs": [
+        "Drain pump motor electrical resistance checking and full assembly replacement.",
+        "Clearing blockages deep within the internal tub-to-pump hose lines."
+      ],
+      "repairTime": "30 - 60 Minutes",
+      "cost": {
+        "lagos": "12,000 - 25,000",
+        "abuja": "15,000 - 30,000",
+        "ibadan": "10,000 - 20,000",
+        "kano": "10,000 - 20,000",
+        "portharcourt": "14,000 - 28,000"
+      },
+      "faq": [
+        {
+          "q": "Can I leave the water inside overnight?",
+          "a": "It is not recommended, as stagnant water can cause bad odors and leak into electrical components."
+        }
+      ],
+      "related": ["OE Code", "Pump Fault", "5C Fault", "F03 Code", "E2 Code"]
+    },
+    "spin_issue": {
+      "title": "Washing Machine Drum Spin Fault",
+      "summary": "The motor hums or cycles normal agitation patterns but refuses to accelerate into extraction spin speeds.",
+      "severity": "Medium Fault Status",
+      "keywords": ["spin", "spinning", "drum not spinning", "not spinning", "won't spin", "no spin", "slow spin", "ue", "ub", "dc", "ul", "unb"],
+      "causes": [
+        "Severely off-balance internal clothing load distribution profiles",
+        "Worn-out engine carbon brushes or snapped drive belt connectors",
+        "Defective door switch locks failing to send high-speed safety clearances"
+      ],
+      "checks": [
+        "Ensure machine is running balanced load mixes across normal drum profiles",
+        "Try spinning the empty inner drum by hand while powered off to ensure it moves freely without resistance"
+      ],
+      "repairs": [
+        "Installation replacement work targeting structural drive belts, carbon brush components, or door switch mechanisms"
+      ],
+      "repairTime": "30 - 75 Minutes",
+      "cost": {
+        "lagos": "14,000 - 28,000",
+        "abuja": "16,000 - 32,000",
+        "ibadan": "11,000 - 22,000",
+        "kano": "10,000 - 20,000",
+        "portharcourt": "15,000 - 30,000"
+      },
+      "faq": [
+        {
+          "q": "Why does my washer agitate but refuse to spin?",
+          "a": "Agitation requires very little motor torque. Spin routines require maximum torque and safe balance verification before accelerating."
+        }
+      ],
+      "related": ["UE Code", "UB Code", "UNB Fault", "Motor Drive Failure"]
+    },
+    "leak_issue": {
+      "title": "Water Leakage Fault",
+      "summary": "Liquid pooling identified underneath the appliance floor boundaries or spilling out of front access panels.",
+      "severity": "High Safety Status",
+      "keywords": ["leak", "leaking", "water leaking", "flooding", "water on floor", "puddle", "ae", "lc", "e22", "e23", "f23", "e13"],
+      "causes": [
+        "Perforated or dry-rotted front rubber door bellows gasket assemblies",
+        "Loose intake piping union threads or punctured underpan drain hoses",
+        "Excessive detergent quantities causing foam overflow streams out rear vent blocks"
+      ],
+      "checks": [
+        "Inspect inner margins of the main door rubber seal for structural cracks or pinholes",
+        "Verify rear water inlet joint connections stay perfectly bone-dry during full operational runs"
+      ],
+      "repairs": [
+        "Removal and replacement of matching front rubber door bellow seals or localized supply lines"
+      ],
+      "repairTime": "45 - 90 Minutes",
+      "cost": {
+        "lagos": "15,000 - 35,000",
+        "abuja": "18,000 - 40,000",
+        "ibadan": "12,000 - 28,000",
+        "kano": "12,000 - 25,000",
+        "portharcourt": "16,000 - 38,000"
+      },
+      "faq": [
+        {
+          "q": "Can a leaking machine cause electrical short circuits?",
+          "a": "Yes. Water tracking downward along internal framework pathways can encounter uninsulated motor connectors or drain components."
+        }
+      ],
+      "related": ["FE Code", "Gasket Fault", "Water Lines Crack"]
+    },
+    "fill_issue": {
+      "title": "Water Fill / Inlet Fault",
+      "summary": "The washing machine fails to take in water, fills incredibly slowly, or displays water-timeout indicators.",
+      "severity": "Medium Fault Status",
+      "keywords": ["fill", "filling", "no water", "slow fill", "water inlet", "not filling", "ie", "1e", "4c", "4e", "f8e1", "e17", "f17", "e10", "e11"],
+      "causes": [
+        "Inadequate external utility baseline pressure channels",
+        "Scale or sand obstructions sitting inside the intake filter plugs",
+        "Burnt control solenoids inside the main machine manifold"
+      ],
+      "checks": [
+        "Confirm that household taps are running and ensure your supply line valves are completely opened up",
+        "Uncouple hoses at the back to pull out and brush clean the internal plastic mesh strainers"
+      ],
+      "repairs": [
+        "Removal and replacement installation of matching electronic water inlet control valves"
+      ],
+      "repairTime": "30 - 60 Minutes",
+      "cost": {
+        "lagos": "15,000 - 35,000",
+        "abuja": "18,000 - 40,000",
+        "ibadan": "12,000 - 30,000",
+        "kano": "12,000 - 28,000",
+        "portharcourt": "18,000 - 42,000"
+      },
+      "faq": [],
+      "related": ["IE Code", "4C Code", "E17 Fault", "Low Pressure"]
     }
   }
 }
