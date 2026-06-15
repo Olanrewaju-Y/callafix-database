@@ -1,104 +1,6 @@
 {
   "lg": {
-    "IE": {
-      "title": "LG Water Inlet Error (IE)",
-      "summary": "The washing machine is unable to fill with water or fill timing thresholds have been exceeded.",
-      "severity": "Medium Fault Status",
-      "causes": [
-        "Closed or restricted municipal water supply taps",
-        "Debris, lime, or silt accumulation inside the inlet mesh filters",
-        "Defective electrical inlet solenoid valves"
-      ],
-      "checks": [
-        "Verify that your external water supply valves are completely open",
-        "Unscrew the inlet hose at the back and clean the plastic mesh filter screens safely"
-      ],
-      "repairs": [
-        "Replacement of the modular water inlet solenoid valve cluster assembly"
-      ],
-      "repairTime": "30 - 60 Minutes",
-      "cost": {
-        "lagos": "15,000 - 35,000",
-        "abuja": "18,000 - 40,000",
-        "ibadan": "12,000 - 30,000",
-        "kano": "12,000 - 28,000",
-        "portharcourt": "18,000 - 42,000"
-      },
-      "faq": [
-        {
-          "q": "Can low overhead tank pressure cause this code?",
-          "a": "Yes. If your water pressure is very low, the machine will time out before the tub reaches its target volume."
-        }
-      ],
-      "related": ["FE", "PE"]
-    },
-    "1E": { "aliasOf": "IE" },
-    "OE": {
-      "title": "LG Drainage Fault Error (OE)",
-      "summary": "The appliance has failed to extract or pump out wastewater within the designated 5-minute safety threshold.",
-      "severity": "Medium Fault Status",
-      "causes": [
-        "Clogged drain pump filter assembly at the bottom front",
-        "Blocked, twisted, or kinked external discharge hose pipeline",
-        "Burned out or mechanically stuck synchronous drain pump motor"
-      ],
-      "checks": [
-        "Open the lower emergency panel flap, release the plug, and clean out coins, lint, or pins",
-        "Ensure the drainage hose line is not pinched behind the machine frame layout"
-      ],
-      "repairs": [
-        "Drain pump winding testing and full extraction motor replacement"
-      ],
-      "repairTime": "30 - 60 Minutes",
-      "cost": {
-        "lagos": "12,000 - 25,000",
-        "abuja": "15,000 - 30,000",
-        "ibadan": "10,000 - 20,000",
-        "kano": "10,000 - 20,000",
-        "portharcourt": "14,000 - 28,000"
-      },
-      "faq": [
-        {
-          "q": "How can I safely empty the machine with water stuck inside?",
-          "a": "Use the small rubber emergency drain line located next to the main twist filter plug first to drain water into a shallow pan."
-        }
-      ],
-      "related": ["IE", "FE"]
-    },
-    "UE": {
-      "title": "LG Unbalanced Load Warning (UE)",
-      "summary": "The control board safely aborted high-speed spinning operations due to an asymmetric mass distribution in the drum.",
-      "severity": "Low Maintenance Status",
-      "causes": [
-        "Washing a single heavy fabric item (e.g., a heavy blanket, jeans, or thick rug)",
-        "The washing machine chassis is unlevel or sitting unevenly on the floor profile",
-        "Worn out or detached internal suspension rod damper assemblies"
-      ],
-      "checks": [
-        "Pause the operational cycle, manually open the door, and separate tangled clothes evenly",
-        "Physically shake the corners of the chassis to check if the bottom leveling legs are flat"
-      ],
-      "repairs": [
-        "Threaded leg calibration adjustments or complete structural swap of inner balancing tension springs"
-      ],
-      "repairTime": "20 - 45 Minutes",
-      "cost": {
-        "lagos": "10,000 - 22,000",
-        "abuja": "12,000 - 25,000",
-        "ibadan": "8,000 - 15,000",
-        "kano": "8,000 - 15,000",
-        "portharcourt": "12,000 - 22,000"
-      },
-      "faq": [
-        {
-          "q": "What is the difference between small 'uE' and capital 'UE'?",
-          "a": "A lowercase 'uE' means the machine is actively trying to redistribute the clothes. A capital 'UE' means it has failed and stopped for safety."
-        }
-      ],
-      "related": ["LE", "DE"]
-    },
-    "UB": { "aliasOf": "UE" },
-    "LE": {
+       "LE": {
       "title": "LG Motor Lock Error (LE)",
       "summary": "The washing machine motor is locked up or encountering excessive rotational resistance.",
       "severity": "High Critical Status",
@@ -352,7 +254,105 @@
         }
       ],
       "related": ["OE"]
-    }
+    },
+    "IE": {
+      "title": "LG Water Inlet Error (IE)",
+      "summary": "The washing machine is unable to fill with water or fill timing thresholds have been exceeded.",
+      "severity": "Medium Fault Status",
+      "causes": [
+        "Closed or restricted municipal water supply taps",
+        "Debris, lime, or silt accumulation inside the inlet mesh filters",
+        "Defective electrical inlet solenoid valves"
+      ],
+      "checks": [
+        "Verify that your external water supply valves are completely open",
+        "Unscrew the inlet hose at the back and clean the plastic mesh filter screens safely"
+      ],
+      "repairs": [
+        "Replacement of the modular water inlet solenoid valve cluster assembly"
+      ],
+      "repairTime": "30 - 60 Minutes",
+      "cost": {
+        "lagos": "15,000 - 35,000",
+        "abuja": "18,000 - 40,000",
+        "ibadan": "12,000 - 30,000",
+        "kano": "12,000 - 28,000",
+        "portharcourt": "18,000 - 42,000"
+      },
+      "faq": [
+        {
+          "q": "Can low overhead tank pressure cause this code?",
+          "a": "Yes. If your water pressure is very low, the machine will time out before the tub reaches its target volume."
+        }
+      ],
+      "related": ["FE", "PE"]
+    },
+    "1E": { "aliasOf": "IE" },
+    "OE": {
+      "title": "LG Drainage Fault Error (OE)",
+      "summary": "The appliance has failed to extract or pump out wastewater within the designated 5-minute safety threshold.",
+      "severity": "Medium Fault Status",
+      "causes": [
+        "Clogged drain pump filter assembly at the bottom front",
+        "Blocked, twisted, or kinked external discharge hose pipeline",
+        "Burned out or mechanically stuck synchronous drain pump motor"
+      ],
+      "checks": [
+        "Open the lower emergency panel flap, release the plug, and clean out coins, lint, or pins",
+        "Ensure the drainage hose line is not pinched behind the machine frame layout"
+      ],
+      "repairs": [
+        "Drain pump winding testing and full extraction motor replacement"
+      ],
+      "repairTime": "30 - 60 Minutes",
+      "cost": {
+        "lagos": "12,000 - 25,000",
+        "abuja": "15,000 - 30,000",
+        "ibadan": "10,000 - 20,000",
+        "kano": "10,000 - 20,000",
+        "portharcourt": "14,000 - 28,000"
+      },
+      "faq": [
+        {
+          "q": "How can I safely empty the machine with water stuck inside?",
+          "a": "Use the small rubber emergency drain line located next to the main twist filter plug first to drain water into a shallow pan."
+        }
+      ],
+      "related": ["IE", "FE"]
+    },
+    "UE": {
+      "title": "LG Unbalanced Load Warning (UE)",
+      "summary": "The control board safely aborted high-speed spinning operations due to an asymmetric mass distribution in the drum.",
+      "severity": "Low Maintenance Status",
+      "causes": [
+        "Washing a single heavy fabric item (e.g., a heavy blanket, jeans, or thick rug)",
+        "The washing machine chassis is unlevel or sitting unevenly on the floor profile",
+        "Worn out or detached internal suspension rod damper assemblies"
+      ],
+      "checks": [
+        "Pause the operational cycle, manually open the door, and separate tangled clothes evenly",
+        "Physically shake the corners of the chassis to check if the bottom leveling legs are flat"
+      ],
+      "repairs": [
+        "Threaded leg calibration adjustments or complete structural swap of inner balancing tension springs"
+      ],
+      "repairTime": "20 - 45 Minutes",
+      "cost": {
+        "lagos": "10,000 - 22,000",
+        "abuja": "12,000 - 25,000",
+        "ibadan": "8,000 - 15,000",
+        "kano": "8,000 - 15,000",
+        "portharcourt": "12,000 - 22,000"
+      },
+      "faq": [
+        {
+          "q": "What is the difference between small 'uE' and capital 'UE'?",
+          "a": "A lowercase 'uE' means the machine is actively trying to redistribute the clothes. A capital 'UE' means it has failed and stopped for safety."
+        }
+      ],
+      "related": ["LE", "DE"]
+    },
+    "UB": { "aliasOf": "UE" }
   },
   "samsung": {
     "4C": {
