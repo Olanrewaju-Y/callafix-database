@@ -1525,11 +1525,11 @@
     ],
     "checks": [
       "Firmly shut the door assembly and check if clothing edges are trapped in the rubber seal bellows.",
-      "Visually inspect the door strike hook to ensure it snaps cleanly into the entry port slot."
+      "Visually inspect the door strike hook to ensure it snaps cleanly into the entry port slot"
     ],
     "repairs": [
       "Peeling back the outer tub spring clamp to remove and replace the main electronic door interlock switch component.",
-      "Replacing a damaged door hinge or strike latch profile setup."
+      "Replacing a damaged door hinge or strike latch profile setup"
     ],
     "repairTime": "20 - 45 Minutes",
     "cost": {
@@ -1549,6 +1549,3 @@
     }   
   }
 }
-
-
-
