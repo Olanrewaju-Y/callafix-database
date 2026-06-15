@@ -1418,7 +1418,7 @@
         }
       ],
       "related": ["OE Code", "Pump Fault", "5C Fault", "F03 Code", "E2 Code"]
-    },
+    },    
     "spin_issue": {
       "title": "Washing Machine Drum Spin Fault",
       "summary": "The motor hums or cycles normal agitation patterns but refuses to accelerate into extraction spin speeds.",
@@ -1512,6 +1512,43 @@
       },
       "faq": [],
       "related": ["IE Code", "4C Code", "E17 Fault", "Low Pressure"]
-    }
+    },   
+    "door_lock_issue": {
+    "title": "Washing Machine Door Lock Fault",
+    "summary": "The safety control system cannot confirm the door is closed, preventing the operational cycle from starting or trapping clothes inside.",
+    "severity": "Medium Fault Status",
+    "keywords": ["door", "lock", "latch", "door error", "won't open", "won't close", "stuck door", "de", "de1", "de2", "dl", "ds", "dc", "dc1", "f01", "e12"],
+    "causes": [
+      "The door mechanism is not fully pushed against the lock frame assembly",
+      "Broken, warped, or misaligned plastic door latch strike hook",
+      "Burned-out electronic solenoid contacts or microswitch failure inside the interlock assembly"
+    ],
+    "checks": [
+      "Firmly shut the door assembly and check if clothing edges are trapped in the rubber seal bellows.",
+      "Visually inspect the door strike hook to ensure it snaps cleanly into the entry port slot."
+    ],
+    "repairs": [
+      "Peeling back the outer tub spring clamp to remove and replace the main electronic door interlock switch component.",
+      "Replacing a damaged door hinge or strike latch profile setup."
+    ],
+    "repairTime": "20 - 45 Minutes",
+    "cost": {
+      "lagos": "12,000 - 24,000",
+      "abuja": "15,000 - 28,000",
+      "ibadan": "10,000 - 18,000",
+      "kano": "9,000 - 18,000",
+      "portharcourt": "14,000 - 26,000"
+    },
+    "faq": [
+      {
+        "q": "How can I open the door if the machine finishes but stays locked?",
+        "a": "Unplug the machine for 5 to 10 minutes to let the thermal bi-metal strip cool down and release, or locate the manual pull tab under the lower kick plate flap."
+      }
+    ],
+    "related": ["dE Code", "dE1 Fault", "dE2 Fault", "DC Code", "Lockout Failure"]
+    }   
   }
 }
+
+
+
