@@ -642,6 +642,200 @@
       "related": ["3E", "HE"]
     }
   },
+  "hisense": {
+    "F01": {
+      "title": "Hisense Washing Machine F01 Error",
+      "summary": "Water inlet configuration time limit tracking exceeded. System feed lines checking failed to register volume additions.",
+      "severity": "Medium Fault Status",
+      "causes": [
+        "Inlet control valve screen blocks",
+        "Defective internal flow meter calculation mechanics",
+        "Inadequate pressurized water framework lines flow velocities"
+      ],
+      "checks": [
+        "Ensure connection supply pipe interfaces are free of manual restriction turns",
+        "Detach hose line link arrays and flush out mineral scale sedimentation groupings"
+      ],
+      "repairs": [
+        "Installation changes targeting electronic direct-feed solenoid flow assemblies"
+      ],
+      "repairTime": "30 - 90 Minutes",
+      "cost": {
+        "lagos": "14,000 - 32,000",
+        "abuja": "18,000 - 38,000",
+        "ibadan": "12,000 - 26,000",
+        "kano": "11,000 - 25,000",
+        "portharcourt": "16,000 - 35,000"
+      },
+      "faq": [
+        {
+          "q": "Why does it wait a few minutes before throwing F01?",
+          "a": "The computer lets the valve stay open for 6 minutes. If the pressure switch registers no water weight, it alerts safety shutdowns."
+        }
+      ],
+      "related": ["F03", "F04", "UNB"]
+    },
+    "F03": {
+      "title": "Hisense Washing Machine F03 Error",
+      "summary": "Drainage failure tracking alert. Water level monitoring module registered complete drain path blocks.",
+      "severity": "Medium Fault Status",
+      "causes": [
+        "Foreign materials caught inside the primary lower impeller shell layout",
+        "Internal drainage transfer trunk line collapse scenarios",
+        "Faulty electronic terminal board control switching relay modules"
+      ],
+      "checks": [
+        "Clear out lower compartment cleanout trap structures immediately",
+        "Verify discharge pipeline paths discharge without localized compression"
+      ],
+      "repairs": [
+        "Replacement installation targeting internal 220V synchronous electric layout motor pumps"
+      ],
+      "repairTime": "30 - 60 Minutes",
+      "cost": {
+        "lagos": "12,000 - 24,000",
+        "abuja": "15,000 - 28,000",
+        "ibadan": "10,000 - 20,000",
+        "kano": "10,000 - 20,000",
+        "portharcourt": "14,000 - 26,000"
+      },
+      "faq": [
+        {
+          "q": "Will manual clearing erase the display flash?",
+          "a": "Yes, once water drops below safety benchmarks and operational cycles undergo hard resets."
+        }
+      ],
+      "related": ["F01", "F07", "F13"]
+    },
+    "UNB": {
+      "title": "Hisense Washing Machine UNB Error",
+      "summary": "Unbalanced payload mass distributions prevented safely transitioning into high velocity rotation speeds.",
+      "severity": "Low Maintenance Status",
+      "causes": [
+        "Unequal mass clump configurations inside internal processing tubs",
+        "Chassis installation leveling foot systems shifted loose over operational lifespans"
+      ],
+      "checks": [
+        "Redistribute wet cloth masses across inner storage environments carefully by hand",
+        "Adjust structural threaded floor pads to establish rock-solid frame posture profiles"
+      ],
+      "repairs": [
+        "Chassis balance correction or tracking component dampener strut renewal work sequences"
+      ],
+      "repairTime": "20 - 50 Minutes",
+      "cost": {
+        "lagos": "10,000 - 22,000",
+        "abuja": "12,000 - 26,000",
+        "ibadan": "9,000 - 18,000",
+        "kano": "8,000 - 16,000",
+        "portharcourt": "12,000 - 24,000"
+      },
+      "faq": [
+        {
+          "q": "How can I avoid getting UNB alarms?",
+          "a": "Avoid washing heavy individual sheets mixed with lightweight cotton fabrics together."
+        }
+      ],
+      "related": ["F03", "F14"]
+    }
+  },
+  "haier": {
+    "E1": {
+      "title": "Haier Washing Machine E1 Error",
+      "summary": "Water filling limits logic tracking timed out. Target operational volumes failed verification.",
+      "severity": "Medium Fault Status",
+      "causes": [
+        "Low external local utility pressure network delivery baselines",
+        "Scale obstruction arrays at input filtration junctions",
+        "Internal wiring open circuit states connecting supply inputs"
+      ],
+      "checks": [
+        "Uncouple intake joints and confirm clear water flows run out of lines natively",
+        "Scrub internal plastic input screens clean using a brush tool profile"
+      ],
+      "repairs": [
+        "Replacing failing high durability magnetic direct control fluid intake modular structures"
+      ],
+      "repairTime": "30 - 80 Minutes",
+      "cost": {
+        "lagos": "13,000 - 30,000",
+        "abuja": "16,000 - 35,000",
+        "ibadan": "11,000 - 25,000",
+        "kano": "10,000 - 22,000",
+        "portharcourt": "15,000 - 32,000"
+      },
+      "faq": [
+        {
+          "q": "Can a bad pressure switch trigger this E1 code configuration?",
+          "a": "Yes. If the sensor tube gets clogged with scale, the main CPU chip cannot map volume increases properly."
+        }
+      ],
+      "related": ["E2", "E4", "Unb"]
+    },
+    "E2": {
+      "title": "Haier Washing Machine E2 Error",
+      "summary": "Drain block tracking activated. Fluids failed to exit within maximum structural windows.",
+      "severity": "Medium Fault Status",
+      "causes": [
+        "Trapped debris blocking internal mechanical water pump impeller vanes",
+        "Collapsed underpan flexible transfer structural lines links",
+        "Control board power supply relay failures for extraction sub-assemblies"
+      ],
+      "checks": [
+        "Manually drop backend connection line segments flat down to check gravity exit paths directly",
+        "Inspect lower service access plug layouts for hidden fabric debris or small items"
+      ],
+      "repairs": [
+        "Full core tracking restoration including installation changes for internal pump motors"
+      ],
+      "repairTime": "30 - 60 Minutes",
+      "cost": {
+        "lagos": "12,000 - 25,000",
+        "abuja": "15,000 - 30,000",
+        "ibadan": "10,000 - 20,000",
+        "kano": "10,000 - 20,000",
+        "portharcourt": "14,000 - 28,000"
+      },
+      "faq": [
+        {
+          "q": "Why does my Haier run logic beep when E2 flashes?",
+          "a": "It is an audio warning safeguard designed to prevent structural flood risks across localized workspaces."
+        }
+      ],
+      "related": ["E1", "E3", "F3"]
+    },
+    "UNB": {
+      "title": "Haier Washing Machine UNB Error",
+      "summary": "Centrifugal run calculations aborted safely following heavy off-center drum shift actions.",
+      "severity": "Low Maintenance Status",
+      "causes": [
+        "Fabric mass grouping imbalances across interior layout sections",
+        "Damaged under-chassis support dampening rod spring setups"
+      ],
+      "checks": [
+        "Redistribute bundled fabric pieces evenly across drum environments",
+        "Manually test chassis level state consistency across local floor configurations"
+      ],
+      "repairs": [
+        "Structural level calibrations or replacement changes for internal stabilizing tension lines"
+      ],
+      "repairTime": "25 - 55 Minutes",
+      "cost": {
+        "lagos": "11,000 - 24,000",
+        "abuja": "14,000 - 28,000",
+        "ibadan": "10,000 - 20,000",
+        "kano": "9,000 - 18,000",
+        "portharcourt": "13,000 - 26,000"
+      },
+      "faq": [
+        {
+          "q": "Can I bypass this balance protection alert tracking option?",
+          "a": "No. Disabling safety checks risks critical structural damage to outer tub housing frameworks."
+        }
+      ],
+      "related": ["E2", "E8"]
+    }
+  },
   "whirlpool": {
     "F1E1": {
       "title": "Whirlpool Main Control Board Fault (F1E1)",
