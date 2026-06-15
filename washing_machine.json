@@ -1513,7 +1513,7 @@
       "faq": [],
       "related": ["IE Code", "4C Code", "E17 Fault", "Low Pressure"]
     },   
-    "door_lock_issue": {
+    "door_issue": {
     "title": "Washing Machine Door Lock Fault",
     "summary": "The safety control system cannot confirm the door is closed, preventing the operational cycle from starting or trapping clothes inside.",
     "severity": "Medium Fault Status",
@@ -1545,7 +1545,7 @@
         "a": "Unplug the machine for 5 to 10 minutes to let the thermal bi-metal strip cool down and release, or locate the manual pull tab under the lower kick plate flap."
       }
     ],
-    "related": ["dE Code", "dE1 Fault", "dE2 Fault", "DC Code", "Lockout Failure"]
+    "related": ["DE Code", "DE1 Fault", "DE2 Fault", "DC Code", "Lockout Failure"]
     }   
   }
 }
