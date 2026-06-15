@@ -1,6 +1,6 @@
 {
   "lg": {
-       "LE": {
+    "LE": {
       "title": "LG Motor Lock Error (LE)",
       "summary": "The washing machine motor is locked up or encountering excessive rotational resistance.",
       "severity": "High Critical Status",
@@ -241,11 +241,11 @@
       "repairs": [],
       "repairTime": "10 - 40 Minutes",
       "cost": {
-        "lagos": "0",
-        "abuja": "0",
-        "ibadan": "0",
-        "kano": "0",
-        "portharcourt": "0"
+        "lagos": "15,000 - 35,000",
+        "abuja": "18,000 - 40,000",
+        "ibadan": "12,000 - 30,000",
+        "kano": "12,000 - 28,000",
+        "portharcourt": "18,000 - 42,000"
       },
       "faq": [
         {
